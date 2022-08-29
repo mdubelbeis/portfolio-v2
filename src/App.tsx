@@ -1,10 +1,22 @@
+import Header from "./Header"
 
+const INFO = {
+  firstName: "Mason",
+  middleName: "Jeffrey",
+  lastName: "Dubelbeis",
+  email: "Mason.Dubelbeis@gmail.com",
+  projectURLS: ['','','',''],
 
-function App() {
+}
 
+const App: React.FC = () => {
   return (
     <div className="App">
-      <h1>Portfolio</h1>
+      <Header/>
+      {/* ABOUT */}
+      {/* CTA/RESUME */}
+      {/* PROJECTS */}
+      {/* FOOTER */}
     </div>
   )
 }
