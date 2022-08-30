@@ -5,9 +5,9 @@ const Heading: React.FC = () => {
     <header id="top" className="w-full max-w-3xl bg-black text-white opacity-90">
       <nav>
         <ul className="flex w-full justify-end gap-4 p-4 text-sm tracking-wide">
-          <li>ABOUT</li>
-          <li>PROJECTS</li>
-          <li>CONTACT</li>
+          <li className='hover:text-blue-500'>ABOUT</li>
+          <li className='hover:text-blue-500'>PROJECTS</li>
+          <li className='hover:text-blue-500'>CONTACT</li>
         </ul>
       </nav>
     </header>
