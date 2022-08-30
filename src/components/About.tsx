@@ -1,21 +1,22 @@
+import ArrowDown from '../ui/ArrowDown';
 import WaveDown from '../ui/WaveDown';
 
 const About: React.FC = () => {
   return (
-    <div className="flex h-screen flex-col items-center justify-center gap-10 bg-slate-100 p-4 font-hero-text leading-loose tracking-wide text-black">
-      <div>
-        <h2 id="about-me" className="text-center text-3xl text-black">
-          WHO AM I?
-        </h2>
-      </div>
-      <div>
+    <section
+      id="about-me"
+      className="flex h-screen flex-col items-center justify-center gap-10 bg-slate-100 p-4 font-hero-text leading-loose tracking-wide text-black"
+    >
+      <h2 className="text-center text-3xl text-black">WHO AM I?</h2>
+      <div className="md:w-9/12">
         <p className="text-center text-lg">
           I am a passionate self-taught frontend developer. I strive to solve any problem that presents itself and have
           a strong love working in the Javascript ecosystem. If I am not adding new knowledge to my tool belt, I am
-          diving deeper into the tools of the trade to bring benefit as an asset to your company.
+          diving deeper into the tools of the trade to bring an asset to your company.
         </p>
       </div>
-    </div>
+      <ArrowDown elementTarget='#projects'/>
+    </section>
   );
 };
 

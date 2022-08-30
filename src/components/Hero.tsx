@@ -1,4 +1,5 @@
 import React from 'react';
+import ArrowDown from '../ui/ArrowDown';
 
 const Hero: React.FC = () => {
   return (
@@ -11,21 +12,7 @@ const Hero: React.FC = () => {
           <li className="border-b-2 border-t-2 border-slate-200 p-1">FRONTEND DEVELOPER</li>
         </ul>
       </div>
-
-      <div className="relative top-28 animate-bounce">
-        <a href="#about-me">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="mt-10 h-12 w-12"
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
-          </svg>
-        </a>
-      </div>
+      <ArrowDown elementTarget='#about-me'/>
     </div>
   );
 };

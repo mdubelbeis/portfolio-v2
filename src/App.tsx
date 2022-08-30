@@ -1,6 +1,7 @@
 import About from './components/About';
 import Heading from './components/Heading';
 import Hero from './components/Hero';
+import Projects from './components/Projects';
 
 const INFO = {
   firstName: 'Mason',
@@ -17,8 +18,10 @@ const App: React.FC = () => {
     <div className="mx-auto w-full max-w-3xl">
       <Heading />
       <Hero />
-      <About />
-      {/* CTA/RESUME */}
+      <main>
+        <About />
+        <Projects />
+      </main>
       {/* PROJECTS */}
       {/* FOOTER */}
     </div>
