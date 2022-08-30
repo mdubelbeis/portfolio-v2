@@ -1,14 +1,10 @@
 import About from './components/About';
 import Heading from './components/Heading';
 import Hero from './components/Hero';
+import Skills from './components/Skills';
 import Projects from './components/Projects';
 
-const PROJECTS = [
-  {},
-  {},
-  {},
-  {},
-]
+const PROJECTS = [{}, {}, {}, {}];
 
 const App: React.FC = () => {
   return (
@@ -17,6 +13,7 @@ const App: React.FC = () => {
       <Hero />
       <main>
         <About />
+        <Skills />
         <Projects />
       </main>
       {/* PROJECTS */}
