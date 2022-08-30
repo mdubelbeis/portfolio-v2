@@ -9,6 +9,9 @@ module.exports = {
       backgroundImage: {
         'hero-pattern': "url('./public/assets/imgs/christian-wiediger-WkfDrhxDMC8-unsplash.jpg')",
       },
+      fontFamily: {
+        'hero-text': ['Antonio', 'sans-serif'],
+      },
     },
   },
   plugins: [],
