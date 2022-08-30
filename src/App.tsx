@@ -14,14 +14,14 @@ const INFO = {
 
 const App: React.FC = () => {
   return (
-    <>
+    <div className="mx-auto w-full max-w-3xl">
       <Heading />
       <Hero />
       <About />
       {/* CTA/RESUME */}
       {/* PROJECTS */}
       {/* FOOTER */}
-    </>
+    </div>
   );
 };
 
