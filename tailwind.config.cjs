@@ -11,6 +11,7 @@ module.exports = {
       },
       fontFamily: {
         'hero-text': ['Antonio', 'sans-serif'],
+        'hero-title': ['Satisfy', 'cursive'],
       },
     },
   },

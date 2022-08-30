@@ -12,11 +12,11 @@ const ICONS = [
 
 const Skills: React.FC = () => {
   return (
-    <section id="skills" className="flex h-screen w-full flex-col items-center justify-center text-white py-20">
+    <section id="skills" className="flex h-screen w-full flex-col items-center justify-center py-20 text-white">
       <div className="p-4">
-        <h2 className="text-center text-3xl text-white mb-12">SKILLS</h2>
+        <h2 className="mb-12 text-center text-3xl text-white">SKILLS</h2>
       </div>
-      <div className="grid grid-cols-2 gap-10 mb-12">
+      <div className="mb-12 grid grid-cols-2 gap-10">
         {ICONS.map((icon) => {
           return <img className="w-20" src={icon.icon} alt={icon.altText} />;
         })}

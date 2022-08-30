@@ -5,7 +5,7 @@ interface ArrowUpProps {
   top: string;
 }
 
-const ArrowUp: React.FC<ArrowUpProps> = ({elementTarget, top}) => {
+const ArrowUp: React.FC<ArrowUpProps> = ({ elementTarget, top }) => {
   return (
     <div className={`relative ${top} animate-bounce`}>
       <a href={elementTarget}>
