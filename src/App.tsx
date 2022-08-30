@@ -1,4 +1,6 @@
-import Header from './Header';
+import About from './components/About';
+import Heading from './components/Heading';
+import Hero from './components/Hero';
 
 const INFO = {
   firstName: 'Mason',
@@ -12,13 +14,14 @@ const INFO = {
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <Header />
-      {/* ABOUT */}
+    <>
+      <Heading />
+      <Hero />
+      <About />
       {/* CTA/RESUME */}
       {/* PROJECTS */}
       {/* FOOTER */}
-    </div>
+    </>
   );
 };
 
