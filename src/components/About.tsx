@@ -15,7 +15,7 @@ const About: React.FC = () => {
           diving deeper into the tools of the trade to bring an asset to your company.
         </p>
       </div>
-      <ArrowDown top='top-32' elementTarget="#skills" />
+      <ArrowDown top="top-32" elementTarget="#skills" />
     </section>
   );
 };

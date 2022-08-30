@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
           <li className="border-b-2 border-t-2 border-slate-200 p-1">FRONTEND DEVELOPER</li>
         </ul>
       </div>
-      <ArrowDown top='top-28' elementTarget="#about-me" />
+      <ArrowDown top="top-28" elementTarget="#about-me" />
     </div>
   );
 };
