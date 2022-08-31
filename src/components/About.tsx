@@ -10,11 +10,13 @@ const About: React.FC = () => {
       <div className="md:w-9/12 lg:w-6/12">
         <p className="text-center text-lg lg:text-2xl lg:leading-relaxed">
           I am a passionate self-taught frontend developer. I strive to solve any problem that presents itself and have
-          a strong love working in the frontend and javascript ecosystem. If I am not adding new knowledge to my tool belt, I am
-          diving deeper into the tools of the trade, allowing me to be an asset to your company.
+          a strong love working in the frontend and javascript ecosystem. If I am not adding new knowledge to my tool
+          belt, I am diving deeper into the tools of the trade, allowing me to be an asset to your company.
         </p>
       </div>
-      <ArrowDown top="top-32" elementTarget="#skills" />
+      <div className="relative top-32">
+        <ArrowDown elementTarget="#skills" />
+      </div>
     </section>
   );
 };

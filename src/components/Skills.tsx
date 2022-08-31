@@ -14,7 +14,7 @@ const Skills: React.FC = () => {
   return (
     <section id="skills" className="flex h-screen w-full flex-col items-center py-10 text-white">
       <div className="p-10">
-        <h2 className="mb-2 text-center tracking-wider text-4xl text-white font-hero-text lg:text-6xl">SKILLS</h2>
+        <h2 className="mb-2 text-center font-hero-text text-4xl tracking-wider text-white lg:text-6xl">SKILLS</h2>
       </div>
       <div className="grid grid-cols-2 gap-14">
         {ICONS.map((icon) => {
@@ -22,7 +22,9 @@ const Skills: React.FC = () => {
         })}
         {/* <!-- !! ADD SRCSET --> */}
       </div>
-      <ArrowDown top="top-32" elementTarget="#projects" />
+      <div className="relative top-28">
+        <ArrowDown elementTarget="#projects" />
+      </div>
     </section>
   );
 };
