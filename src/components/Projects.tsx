@@ -14,7 +14,7 @@ interface ProjectProps {
 const Projects: React.FC<ProjectProps> = ({ projects }) => {
   const projectList = projects.map((project) => {
     return (
-      <div key={project.id} className="flex flex-col items-center justify-center bg-white py-4 text-center lg:py-6 lg:px-8">
+      <div key={project.id} className="flex flex-col items-center justify-center bg-white py-4 text-center lg:py-6">
         <div className="flex max-w-lg flex-col items-center justify-center">
           <img className="rounded w-9/12" src={project.projectBgImg} alt={project.projectName} />
           <div className="space-y-2 p-4">
