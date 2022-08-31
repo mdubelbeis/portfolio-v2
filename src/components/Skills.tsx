@@ -22,7 +22,7 @@ const Skills: React.FC = () => {
         })}
         {/* <!-- !! ADD SRCSET --> */}
       </div>
-      <ArrowDown top="top-28" elementTarget="#projects" />
+      <ArrowDown top="top-32" elementTarget="#projects" />
     </section>
   );
 };
