@@ -1,5 +1,4 @@
 import ArrowDown from '../ui/ArrowDown';
-import WaveDown from '../ui/WaveDown';
 
 const About: React.FC = () => {
   return (
