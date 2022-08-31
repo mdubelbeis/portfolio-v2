@@ -21,7 +21,7 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
             <a className="text-2xl hover:text-blue-500 font-hero-title lg:text-3xl" href={project.projectLink} target="_blank">
               {project.projectName}
             </a>
-            <p>{project.projectText}</p>
+            <p className="font-hero-text tracking-wider px-8">{project.projectText}</p>
           </div>
         </div>
       </div>

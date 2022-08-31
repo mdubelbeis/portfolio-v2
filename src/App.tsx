@@ -28,7 +28,7 @@ const PROJECTS = [
     projectBgImg: '/public/assets/imgs/project-imgs/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg',
     projectName: 'Calculator',
     projectText:
-      'A website that covers all news and resources for Magic: The Gathering A basic calculator to get quick solutions.',
+      'A basic calculator to get quick solutions.',
     projectTech: ['React-Ts', 'Tailwind CSS'],
   },
   {
