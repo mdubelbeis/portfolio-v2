@@ -14,7 +14,7 @@ const About: React.FC = () => {
           belt, I am diving deeper into the tools of the trade, allowing me to be an asset to your company.
         </p>
       </div>
-      <div className="relative top-32">
+      <div className="relative top-32 lg:top-56">
         <ArrowDown elementTarget="#skills" />
       </div>
     </section>
