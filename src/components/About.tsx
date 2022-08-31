@@ -10,8 +10,8 @@ const About: React.FC = () => {
       <div className="md:w-9/12">
         <p className="text-center text-lg">
           I am a passionate self-taught frontend developer. I strive to solve any problem that presents itself and have
-          a strong love working in the Javascript ecosystem. If I am not adding new knowledge to my tool belt, I am
-          diving deeper into the tools of the trade to bring an asset to your company.
+          a strong love working in the frontend and javascript ecosystem. If I am not adding new knowledge to my tool belt, I am
+          diving deeper into the tools of the trade, allowing me to be an asset to your company.
         </p>
       </div>
       <ArrowDown top="top-32" elementTarget="#skills" />
