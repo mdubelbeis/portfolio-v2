@@ -2,7 +2,7 @@ import React from 'react';
 
 interface ArrowUpProps {
   elementTarget: string;
-  top: string;
+  top?: string;
 }
 
 const ArrowUp: React.FC<ArrowUpProps> = ({ elementTarget, top }) => {
