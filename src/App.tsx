@@ -43,7 +43,7 @@ const PROJECTS = [
 
 const App: React.FC = () => {
   return (
-    <div className="mx-auto w-full max-w-3xl">
+    <div className="mx-auto w-full max-w-6xl">
       <Heading />
       <Hero />
       <main>
