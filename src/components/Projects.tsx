@@ -29,7 +29,7 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
   });
   return (
     <section id="projects" className="flex flex-col items-center justify-center gap-4 bg-white py-20 px-4 text-center">
-      <h2 className="mb-10 text-center text-4xl text-black font-hero-text tracking-wider">PROJECTS</h2>
+      <h2 className="mb-10 text-center text-4xl text-black font-hero-text tracking-wider lg:text-6xl">PROJECTS</h2>
       {projectList}
       <ArrowUp top="top-12" elementTarget="#top" />
     </section>
