@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
         {/* <span className="text-3xl absolute -top-8 -left-10 -rotate-45">Hey,</span> */}
         <h1 className="font-hero-title text-6xl md:text-7xl lg:text-8xl">Mason Dubelbeis</h1>
         <ul>
-          <li className="mx-auto w-6/12 border-b-2 border-t-2 border-slate-200 p-1 text-lg md:text-2xl lg:text-3xl">
+          <li className="mx-auto w-6/12 border-b-2 border-t-2 border-slate-200 p-1 font-hero-text text-md md:text-2xl lg:text-3xl">
             FRONTEND DEVELOPER
           </li>
         </ul>
