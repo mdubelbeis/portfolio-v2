@@ -22,7 +22,7 @@ const Skills: React.FC = () => {
         })}
         {/* <!-- !! ADD SRCSET --> */}
       </div>
-      <div className="absolute bottom-10">
+      <div className="absolute bottom-10 text-blue-500">
         <ArrowDown elementTarget="#projects" />
       </div>
     </section>

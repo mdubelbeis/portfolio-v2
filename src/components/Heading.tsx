@@ -8,11 +8,11 @@ const Heading: React.FC = () => {
           <li className="hover:text-blue-500">
             <a href="#about-me">ABOUT</a>
           </li>
-          <li>&bull;</li>
+          <li className="text-blue-500">&bull;</li>
           <li className="hover:text-blue-500">
             <a href="#projects">PROJECTS</a>
           </li>
-          <li>&bull;</li>
+          <li className="text-blue-500">&bull;</li>
           <li className="hover:text-blue-500">
             <a href="#contact">CONTACT</a>
           </li>
