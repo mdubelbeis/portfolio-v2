@@ -7,7 +7,7 @@ module.exports = {
         main: '#a2d9ff',
       },
       backgroundImage: {
-        'hero-pattern': "url('./public/assets/imgs/christian-wiediger-WkfDrhxDMC8-unsplash.jpg')",
+        'hero-pattern': "url('/public/assets/imgs/christian-wiediger-WkfDrhxDMC8-unsplash.jpg')",
       },
       fontFamily: {
         'hero-text': ['Antonio', 'sans-serif'],
