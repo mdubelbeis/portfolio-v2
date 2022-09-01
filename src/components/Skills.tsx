@@ -18,7 +18,7 @@ const Skills: React.FC = () => {
       </div>
       <div className="mt-20 grid grid-cols-2 gap-14 lg:grid-cols-3 lg:gap-20">
         {ICONS.map((icon) => {
-          return <img className="w-20 lg:w-32" src={icon.icon} alt={icon.altText} />;
+          return <img className="w-20 mb-10 lg:w-32" src={icon.icon} alt={icon.altText} />;
         })}
         {/* <!-- !! ADD SRCSET --> */}
       </div>
