@@ -27,8 +27,7 @@ const PROJECTS = [
     projectLink: '#',
     projectBgImg: '/public/assets/imgs/project-imgs/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg',
     projectName: 'Calculator',
-    projectText:
-      'A basic calculator to get quick solutions.',
+    projectText: 'A basic calculator to get quick solutions.',
     projectTech: ['React-Ts', 'Tailwind CSS'],
   },
   {
