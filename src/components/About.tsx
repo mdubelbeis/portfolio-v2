@@ -12,7 +12,7 @@ const About: React.FC = () => {
           I am a passionate self-taught <span className="text-2xl text-blue-500 lg:4xl">FRONTEND DEVELOPER</span>. I strive to solve any problem that presents itself and committed to <span className="text-2xl text-blue-500 lg:4xl">UX DESIGN</span> and <span className="text-2xl text-blue-500 lg:4xl">FAMILY</span>.  If I am not adding new knowledge to my tool belt, I am diving deeper into the tools of the trade.
         </p>
       </div>
-      <div id="resume" className="bg-blue-500 py-4 px-10 text-white text-xl rounded-lg tracking-wider drop-shadow-lg hover:bg-slate-200 hover:text-blue-500 animate-pulse hover:animate-none hover:cursor-pointer lg:text-2xl">
+      <div id="resume" className="bg-blue-500 py-4 px-10 text-white text-xl rounded-lg tracking-wider drop-shadow-lg hover:bg-slate-200 hover:text-blue-500 hover:animate-none hover:cursor-pointer lg:text-2xl">
         <a href='../../public/assets/resume/#'>RESUME</a>
       </div>
       <div className="absolute bottom-10 text-blue-500">
