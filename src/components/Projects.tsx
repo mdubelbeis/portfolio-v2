@@ -16,7 +16,7 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
     return (
       <div key={project.id} className="flex flex-col items-center justify-center bg-white py-4 text-center lg:py-6">
         <div className="flex max-w-lg flex-col items-center justify-center lg:px-4">
-          <img className="rounded w-full" src={project.projectBgImg} alt={project.projectName} />
+          <img className="rounded w-11/12" src={project.projectBgImg} alt={project.projectName} />
           <div className="space-y-2 p-4">
             <a className="text-3xl hover:text-blue-500 font-hero-title md:text-4xl" href={project.projectLink} target="_blank">
               {project.projectName}
