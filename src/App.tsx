@@ -9,7 +9,7 @@ const PROJECTS = [
   {
     id: 1,
     projectLink: 'https://the-gathering-bulletin-8wridu8wv-mdubelbeis.vercel.app/',
-    projectBgImg: '/public/assets/imgs/project-imgs/ales-nesetril-Im7lZjxeLhg-unsplash.jpg',
+    projectBgImg: '/assets/imgs/project-imgs/ales-nesetril-Im7lZjxeLhg-unsplash.jpg',
     projectName: 'The Gathering Bulletin',
     projectText: 'A website that covers all news and resources for Magic: The Gathering players',
     projectTech: ['React-Ts', 'Tailwind CSS'],
@@ -17,7 +17,7 @@ const PROJECTS = [
   {
     id: 2,
     projectLink: '#',
-    projectBgImg: '/public/assets/imgs/project-imgs/christopher-burns-Kj2SaNHG-hg-unsplash.jpg',
+    projectBgImg: '/assets/imgs/project-imgs/christopher-burns-Kj2SaNHG-hg-unsplash.jpg',
     projectName: 'Du-Bee Herbs',
     projectText: 'A landing page for local spices and herbs store.',
     projectTech: ['React-Ts', 'Tailwind CSS'],
