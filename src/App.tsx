@@ -22,22 +22,22 @@ const PROJECTS = [
     projectText: 'A landing page for local spices and herbs store.',
     projectTech: ['React-Ts', 'Tailwind CSS'],
   },
-  {
-    id: 3,
-    projectLink: '#',
-    projectBgImg: '/public/assets/imgs/project-imgs/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg',
-    projectName: 'Calculator',
-    projectText: 'A basic calculator to get quick solutions.',
-    projectTech: ['React-Ts', 'Tailwind CSS'],
-  },
-  {
-    id: 4,
-    projectLink: '#',
-    projectBgImg: '/public/assets/imgs/project-imgs/luca-bravo-XJXWbfSo2f0-unsplash.jpg',
-    projectName: 'Obligations',
-    projectText: 'Create a list that is essential in helping you complete your goals',
-    projectTech: ['React-Ts', 'Tailwind CSS'],
-  },
+  // {
+  //   id: 3,
+  //   projectLink: '#',
+  //   projectBgImg: '/public/assets/imgs/project-imgs/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg',
+  //   projectName: 'Calculator',
+  //   projectText: 'A basic calculator to get quick solutions.',
+  //   projectTech: ['React-Ts', 'Tailwind CSS'],
+  // },
+  // {
+  //   id: 4,
+  //   projectLink: '#',
+  //   projectBgImg: '/public/assets/imgs/project-imgs/luca-bravo-XJXWbfSo2f0-unsplash.jpg',
+  //   projectName: 'Obligations',
+  //   projectText: 'Create a list that is essential in helping you complete your goals',
+  //   projectTech: ['React-Ts', 'Tailwind CSS'],
+  // },
 ];
 
 const App: React.FC = () => {
