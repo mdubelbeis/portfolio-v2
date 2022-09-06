@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 const PROJECTS = [
   {
     id: 1,
-    projectLink: 'https://the-gathering-bulletin-8wridu8wv-mdubelbeis.vercel.app/',
+    projectLink: 'https://the-gathering-bulletin.vercel.app/',
     projectBgImg: '/assets/imgs/project-imgs/the-gathering-bulletin.png',
     projectName: 'The Gathering Bulletin',
     projectText: 'A website that covers all news and resources for Magic: The Gathering players',
