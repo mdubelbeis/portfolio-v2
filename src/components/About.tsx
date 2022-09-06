@@ -20,7 +20,7 @@ const About: React.FC = () => {
         id="resume"
         className="rounded-lg bg-blue-500 py-4 px-10 text-xl tracking-wider text-white drop-shadow-lg hover:animate-none hover:cursor-pointer hover:bg-slate-200 hover:text-blue-500 lg:text-2xl"
       >
-        <a href="/public/assets/resume/Resume_tech.pdf" download>RESUME</a>
+        <a href="/assets/resume/Resume_tech.pdf" target="_blank" rel="noopener noreferrer" download>RESUME</a>
       </div>
       <div className="absolute bottom-10 text-blue-500">
         <ArrowDown elementTarget="#skills" />
