@@ -2,12 +2,12 @@ import React from 'react';
 import ArrowDown from '../ui/ArrowDown';
 
 const ICONS = [
-  { icon: '/public/assets/icons/html.svg', altText: 'html icon' },
-  { icon: '/public/assets/icons/css3.svg', altText: 'css icon' },
-  { icon: '/public/assets/icons/sass-icons/sass-512.png', altText: 'sass icon' },
-  { icon: '/public/assets/icons/js-icons/js-512.png', altText: 'javascript icon' },
-  { icon: '/public/assets/icons/typescript-icons/typescript-512.png', altText: 'typescript icon' },
-  { icon: '/public/assets/icons/react-icons/react-512.png', altText: 'react icon' },
+  { icon: '/assets/icons/html.svg', altText: 'html icon' },
+  { icon: '/assets/icons/css3.svg', altText: 'css icon' },
+  { icon: '/assets/icons/sass-icons/sass-512.png', altText: 'sass icon' },
+  { icon: '/assets/icons/js-icons/js-512.png', altText: 'javascript icon' },
+  { icon: '/assets/icons/typescript-icons/typescript-512.png', altText: 'typescript icon' },
+  { icon: '/assets/icons/react-icons/react-512.png', altText: 'react icon' },
 ];
 
 const Skills: React.FC = () => {
