@@ -12,8 +12,8 @@ const ICONS = [
 
 const Skills: React.FC = () => {
   return (
-    <section id="skills" className="relative flex h-screen w-full flex-col items-center py-10 text-white">
-      <div className="p-10">
+    <section id="skills" className="relative flex h-screen w-full flex-col items-center justify-start py-10 text-white">
+      <div className="p-4">
         <h2 className="mb-2 text-center font-hero-text text-4xl tracking-widest text-white lg:text-6xl">SKILLS</h2>
       </div>
       <div className="mt-20 grid grid-cols-2 gap-14 lg:grid-cols-3 lg:gap-20">
@@ -22,7 +22,7 @@ const Skills: React.FC = () => {
         })}
         {/* <!-- !! ADD SRCSET --> */}
       </div>
-      <div className="absolute bottom-10 text-blue-500">
+      <div className="absolute bottom-20 text-blue-500">
         <ArrowDown elementTarget="#projects" />
       </div>
     </section>
