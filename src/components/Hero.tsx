@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
           </li>
         </ul>
       </div>
-      <div className="absolute bottom-64 text-blue-500">
+      <div className="absolute bottom-36 text-blue-500">
         <ArrowDown elementTarget="#about-me" />
       </div>
     </div>
