@@ -19,7 +19,7 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
           <img className="w-11/12 rounded-lg" src={project.projectBgImg} alt={project.projectName} />
           <div className="space-y-2 p-4">
             <a
-              className=" font-hero-title text-3xl hover:text-blue-500 md:text-4xl"
+              className="font-hero-title text-3xl hover:text-blue-500 md:text-4xl"
               href={project.projectLink}
               target="_blank"
             >

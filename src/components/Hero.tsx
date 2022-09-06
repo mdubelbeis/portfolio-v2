@@ -11,8 +11,8 @@ const Hero: React.FC = () => {
             FRONTEND DEVELOPER
           </li>
           <li className="text-md md:text-lg lg:text-2xl mt-2 lg:mt-4">732-228-2390</li>
-          <li className="text-md font-hero-title  mt-2 hover:text-blue-500 md:text-lg lg:text-3xl lg:mt-4">
-            <a href="mailto:mason.dubelbeis@gmail.com.com">Email Me!</a>
+          <li className="text-md font-hero-title mt-2 md:text-lg lg:text-3xl lg:mt-4">
+            <a className="underline underline-offset-4 text-blue-500 hover:text-white animate-pulse" href="mailto:mason.dubelbeis@gmail.com.com">Email Me</a>
           </li>
         </ul>
       </div>
