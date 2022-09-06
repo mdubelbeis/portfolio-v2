@@ -4,7 +4,7 @@ const About: React.FC = () => {
   return (
     <section
       id="about-me"
-      className="relative flex h-screen flex-col items-center justify-center gap-16 bg-slate-100 p-4 font-hero-text leading-loose tracking-wide text-black"
+      className="relative flex h-screen flex-col items-center justify-center gap-10 bg-slate-100 p-4 font-hero-text leading-loose tracking-wide text-black"
     >
       <h2 className="text-center font-hero-text text-3xl text-black lg:text-6xl">WHO AM I?</h2>
       <div className="md:w-9/12 lg:w-6/12">
@@ -18,11 +18,11 @@ const About: React.FC = () => {
       </div>
       <div
         id="resume"
-        className="rounded-lg bg-blue-500 py-4 px-10 text-xl tracking-wider text-white drop-shadow-lg animate-pulse hover:animate-none hover:cursor-pointer hover:bg-slate-200 hover:text-blue-500 lg:text-2xl"
+        className="rounded-lg bg-blue-500 py-4 px-10 text-xl tracking-wider text-white drop-shadow-lg animate-pulse hover:animate-none hover:cursor-pointer hover:bg-slate-200 hover:border hover:border-blue-500 hover:text-blue-500 lg:text-2xl"
       >
         <a href="/assets/resume/Resume_tech.pdf" target="_blank" rel="noopener noreferrer" download>RESUME</a>
       </div>
-      <div className="absolute bottom-10 text-blue-500">
+      <div className="absolute bottom-20 text-blue-500">
         <ArrowDown elementTarget="#skills" />
       </div>
     </section>
