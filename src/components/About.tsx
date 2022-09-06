@@ -22,7 +22,7 @@ const About: React.FC = () => {
       >
         <a href="/assets/resume/Resume_tech.pdf" target="_blank" rel="noopener noreferrer" download>RESUME</a>
       </div>
-      <div className="absolute bottom-28 text-blue-500">
+      <div className="absolute bottom-32 text-blue-500">
         <ArrowDown elementTarget="#skills" />
       </div>
     </section>
