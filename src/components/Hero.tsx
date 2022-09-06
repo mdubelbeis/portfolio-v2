@@ -10,6 +10,10 @@ const Hero: React.FC = () => {
           <li className="text-md mx-auto w-6/12 border-b-2 border-t-2 border-slate-200 p-1 font-hero-text md:text-2xl lg:text-3xl">
             FRONTEND DEVELOPER
           </li>
+          <li className="text-2xl mt-4">732-228-2390</li>
+          <li className="text-4xl mt-3 font-hero-title hover:text-blue-500">
+            <a href="mailto:mason.dubelbeis@gmail.com.com">Email Me!</a>
+          </li>
         </ul>
       </div>
       <div className="absolute bottom-24 text-blue-500">
