@@ -16,13 +16,13 @@ const Skills: React.FC = () => {
       <div className="p-4">
         <h2 className="mb-2 text-center font-hero-text text-4xl tracking-widest text-white lg:text-6xl">SKILLS</h2>
       </div>
-      <div className="mt-20 grid grid-cols-2 gap-14 lg:grid-cols-3 lg:gap-20">
+      <div className="mt-16 grid grid-cols-2 gap-10 lg:grid-cols-3 lg:gap-20">
         {ICONS.map((icon) => {
-          return <img className="mb-10 w-20 lg:w-32" src={icon.icon} alt={icon.altText} />;
+          return <img className="mb-6 w-20 lg:w-32" src={icon.icon} alt={icon.altText} />;
         })}
         {/* <!-- !! ADD SRCSET --> */}
       </div>
-      <div className="absolute bottom-20 text-blue-500">
+      <div className="absolute bottom-28 text-blue-500">
         <ArrowDown elementTarget="#projects" />
       </div>
     </section>
