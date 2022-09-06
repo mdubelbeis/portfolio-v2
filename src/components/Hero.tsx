@@ -5,13 +5,13 @@ const Hero: React.FC = () => {
   return (
     <div className="relative flex h-screen w-full flex-col items-center justify-center bg-slate-800 bg-hero-pattern bg-cover bg-no-repeat text-center font-hero-text text-white bg-blend-multiply">
       <div className="mb-24 flex h-72 w-72 flex-col justify-center gap-4 rounded-full border border-blue-300 border-opacity-10 bg-black bg-opacity-40 md:h-96 md:w-96 lg:h-[32rem] lg:w-[32rem]">
-        <h1 className="font-hero-title text-6xl text-blue-500 md:text-7xl lg:text-8xl">Mason Dubelbeis</h1>
+        <h1 className="font-hero-title text-5xl text-blue-500 md:text-7xl lg:text-8xl">Mason Dubelbeis</h1>
         <ul>
-          <li className="text-md mx-auto w-6/12 border-b-2 border-t-2 border-slate-200 p-1 font-hero-text md:text-2xl lg:text-3xl">
+          <li className="text-lg mx-auto w-6/12 border-b-2 border-t-2 border-slate-200 p-1 font-hero-text md:text-2xl lg:text-3xl">
             FRONTEND DEVELOPER
           </li>
-          <li className="text-2xl mt-4">732-228-2390</li>
-          <li className="text-4xl mt-3 font-hero-title hover:text-blue-500">
+          <li className="text-md md:text-lg lg:text-2xl mt-2 lg:mt-4">732-228-2390</li>
+          <li className="text-md font-hero-title  mt-2 hover:text-blue-500 md:text-lg lg:text-3xl lg:mt-4">
             <a href="mailto:mason.dubelbeis@gmail.com.com">Email Me!</a>
           </li>
         </ul>
