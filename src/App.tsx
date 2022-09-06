@@ -62,14 +62,6 @@ const PROJECTS = [
     projectText: 'A front end web challenge from Frontendmentor.io',
     projectTech: ['HTML', 'Tailwind CSS'],
   },
-  // {
-  //   id: 8,
-  //   projectLink: 'https://tip-calculator-rose-eight.vercel.app/',
-  //   projectBgImg: '/public/assets/imgs/project-imgs/suite.png',
-  //   projectName: 'Suite',
-  //   projectText: 'A front end web challenge from Frontendmentor.io',
-  //   projectTech: ['React-Ts', 'Tailwind CSS'],
-  // },
 ];
 
 const App: React.FC = () => {
