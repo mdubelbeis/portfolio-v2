@@ -8,11 +8,11 @@ const About: React.FC = () => {
     >
       <h2 className="text-center font-hero-text text-3xl text-black lg:text-6xl">WHO AM I?</h2>
       <div className="md:w-9/12 lg:w-6/12">
-        <p className="text-center text-lg lg:text-2xl lg:leading-relaxed">
+        <p className="text-center text-xl lg:text-2xl lg:leading-relaxed">
           I am a passionate self-taught <span className="lg:4xl text-2xl text-blue-500">FRONTEND DEVELOPER</span>. I
           strive to solve any problem that presents itself and committed to{' '}
           <span className="lg:4xl text-2xl text-blue-500">UX DESIGN</span> and{' '}
-          <span className="lg:4xl text-2xl text-blue-500">FAMILY</span>. If I am not adding new knowledge to my tool
+          <span className="lg:4xl text-2xl text-blue-500">PROBLEM SOLVING</span>. If I am not adding new knowledge to my tool
           belt, I am diving deeper into the tools of the trade.
         </p>
       </div>
