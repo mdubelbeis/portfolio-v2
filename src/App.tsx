@@ -58,7 +58,7 @@ const PROJECTS = [
     id: 7,
     projectLink: 'https://pod-request-access-landing-page-blue.vercel.app/',
     projectBgImg: '/assets/imgs/project-imgs/pod.png',
-    projectName: 'POD',
+    projectName: 'Pod',
     projectText: 'A front end web challenge from Frontendmentor.io',
     projectTech: ['HTML', 'Tailwind CSS'],
   },
