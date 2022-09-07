@@ -11,7 +11,7 @@ const About: React.FC = () => {
         <p className="text-center text-xl lg:text-2xl lg:leading-relaxed">
           I am a passionate self-taught <span className="lg:4xl text-2xl text-blue-500">FRONTEND DEVELOPER</span>. I
           strive to solve any problem that presents itself and committed to{' '}
-          <span className="lg:4xl text-2xl text-blue-500">UX DESIGN</span> and{' '}
+          <span className="lg:4xl text-2xl text-blue-500">UI/UX DEVELOPMENT</span> and{' '}
           <span className="lg:4xl text-2xl text-blue-500">PROBLEM SOLVING</span>. If I am not adding new knowledge to my tool
           belt, I am diving deeper into the tools of the trade.
         </p>
