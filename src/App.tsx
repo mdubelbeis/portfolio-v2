@@ -54,14 +54,14 @@ const PROJECTS = [
     projectText: 'A front end web challenge from Frontendmentor.io',
     projectTech: ['HTML', 'Tailwind CSS'],
   },
-  {
-    id: 7,
-    projectLink: '#',
-    projectBgImg: '/assets/imgs/project-imgs/markus-spiske-4PG6wLlVag4-unsplash.jpg',
-    projectName: 'Du-Bee Herbs',
-    projectText: 'A landing page for local spices and herbs store.',
-    projectTech: ['React-Ts', 'Tailwind CSS'],
-  },
+  // {
+  //   id: 7,
+  //   projectLink: '#',
+  //   projectBgImg: '/assets/imgs/project-imgs/markus-spiske-4PG6wLlVag4-unsplash.jpg',
+  //   projectName: 'Du-Bee Herbs',
+  //   projectText: 'A landing page for local spices and herbs store.',
+  //   projectTech: ['React-Ts', 'Tailwind CSS'],
+  // },
 ];
 
 const App: React.FC = () => {
