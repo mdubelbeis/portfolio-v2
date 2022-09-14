@@ -8,7 +8,7 @@ const Contact: React.FC = () => {
   return (
     <nav className={`flex justify-around mx-auto md:block md:absolute md:left-0 md:top-0 md:h-full z-10`}>
       {/* <h3 className="text-black text-5xl">CONTACT</h3> */}
-      <div id="content-container" className="md:fixed h-full p-4 shadow-xl">
+      <div id="content-container" className="md:fixed h-full py-2 shadow-xl">
         <ul
           id="contact-links-wrapper"
           className={`flex gap-8 md:flex-col`}
