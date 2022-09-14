@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-import { FaLinkedin } from "react-icons/fa";
-
-=======
 import { useState, useEffect } from 'react';
 import { FaGithub, FaLinkedin, FaTwitter, FaHamburger } from 'react-icons/fa';
 
 import React from 'react';
->>>>>>> dev
 
 const Contact: React.FC = () => {
   const [showContactLinks, setShowContactLinks] = useState(false);
@@ -18,14 +13,6 @@ const Contact: React.FC = () => {
   let showMenu = showContactLinks ? 'block' : 'hidden';
 
   return (
-<<<<<<< HEAD
-    <section>
-      <h1 className="bg-black text-white">HIRE ME</h1>
-      <div>
-        <FaLinkedin/>
-      </div>
-    </section>
-=======
     <aside
       className={`absolute right-6 bottom-4 flex flex-col rounded-full md:right-0 md:rounded-2xl lg:top-[33%] lg:right-8`}
     >
@@ -53,7 +40,6 @@ const Contact: React.FC = () => {
           </button>
       </div>
     </aside>
->>>>>>> dev
   );
 };
 
