@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { FaGithub, FaLinkedin, FaTwitter, FaHamburger } from 'react-icons/fa';
 
 import React from 'react';
@@ -20,7 +20,7 @@ const Contact: React.FC = () => {
       <div id="content-container" className="p-2">
         <div id="contact-links-wrapper" className={`${showMenu} flex flex-col items-center justify-end gap-4 lg:justify-center lg:gap-8 mb-4`}>
           <div>
-            <a href="www.github.com/mdubelbeis" target="_blank">
+            <a href="https://www.github.com/mdubelbeis" target="_blank">
               <FaGithub size={40} />
             </a>
           </div>
