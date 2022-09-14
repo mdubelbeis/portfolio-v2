@@ -1,7 +1,10 @@
+import { useState } from 'react';
 import ArrowDown from '../ui/ArrowDown';
 import Contact from './Contact';
 
 const About: React.FC = () => {
+  const [showButton, setShowButton] = useState(false);
+
   return (
     <section
       id="about-me"
@@ -13,11 +16,20 @@ const About: React.FC = () => {
           I am a passionate self-taught <span className="lg:4xl text-2xl text-blue-500">FRONTEND DEVELOPER</span>. I
           strive to solve any problem that presents itself and committed to{' '}
           <span className="lg:4xl text-2xl text-blue-500">UI/UX DEVELOPMENT</span> and{' '}
-          <span className="lg:4xl text-2xl text-blue-500">PROBLEM SOLVING</span>. If I am not adding new knowledge to my tool
-          belt, I am diving deeper into the tools of the trade.
+          <span className="lg:4xl text-2xl text-blue-500">PROBLEM SOLVING</span>. If I am not adding new knowledge to my
+          tool belt, I am diving deeper into the tools of the trade.
         </p>
       </div>
-      <Contact/>
+      <div
+        id="resume"
+        className="lg:text-2xl] hidden animate-pulse rounded-lg bg-blue-500 py-2 px-8 text-xl tracking-wider text-white drop-shadow-lg hover:animate-none hover:cursor-pointer hover:border hover:border-blue-500 hover:bg-slate-200 hover:text-blue-500 md:block"
+      >
+        <a href="/assets/resume/Resume_tech.pdf" target="_blank" rel="noopener noreferrer" download>
+          RESUME
+        </a>
+      </div>
+
+      <Contact />
       {/* <div className="absolute bottom-36 text-blue-500">
         <ArrowDown elementTarget="#skills" />
       </div> */}
