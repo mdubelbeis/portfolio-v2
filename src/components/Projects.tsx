@@ -34,7 +34,7 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
   return (
     <section
       id="projects"
-      className="flex min-h-screen flex-col items-center justify-center gap-4 bg-white px-4 py-20 text-center"
+      className="flex flex-col items-center justify-center gap-4 bg-white px-4 py-20 text-center"
     >
       <h2 className="mb-10 text-center font-hero-text text-4xl tracking-wider text-black lg:text-6xl">PROJECTS</h2>
       <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-6">{projectList}</div>
