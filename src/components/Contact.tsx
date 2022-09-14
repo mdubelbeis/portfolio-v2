@@ -6,7 +6,7 @@ import React from 'react';
 
 const Contact: React.FC = () => {
   return (
-    <nav className={`flex justify-center mx-auto md:block md:absolute md:left-0 md:top-0 md:h-full p-2 z-10`}>
+    <nav className={`flex justify-around mx-auto md:block md:absolute md:left-0 md:top-0 md:h-full p-2 z-10`}>
       {/* <h3 className="text-black text-5xl">CONTACT</h3> */}
       <div id="content-container" className="md:fixed h-full p-4 shadow-xl">
         <ul
