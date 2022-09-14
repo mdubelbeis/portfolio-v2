@@ -1,5 +1,4 @@
 import React from 'react';
-import ArrowDown from '../ui/ArrowDown';
 
 const ICONS = [
   { icon: '/assets/icons/html.svg', altText: 'html icon' },
@@ -20,11 +19,7 @@ const Skills: React.FC = () => {
         {ICONS.map((icon) => {
           return <img className="mb-6 w-20 lg:w-32" src={icon.icon} alt={icon.altText} />;
         })}
-        {/* <!-- !! ADD SRCSET --> */}
       </div>
-      {/* <div className="absolute bottom-36 text-blue-500">
-        <ArrowDown elementTarget="#projects" />
-      </div> */}
     </section>
   );
 };
