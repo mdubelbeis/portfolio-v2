@@ -17,12 +17,6 @@ const About: React.FC = () => {
           belt, I am diving deeper into the tools of the trade.
         </p>
       </div>
-      <div
-        id="resume"
-        className="rounded-lg bg-blue-500 py-4 px-10 text-xl tracking-wider text-white drop-shadow-lg animate-pulse hover:animate-none hover:cursor-pointer hover:bg-slate-200 hover:border hover:border-blue-500 hover:text-blue-500 lg:text-2xl"
-      >
-        <a href="/assets/resume/Resume_tech.pdf" target="_blank" rel="noopener noreferrer" download>RESUME</a>
-      </div>
       <Contact/>
       {/* <div className="absolute bottom-36 text-blue-500">
         <ArrowDown elementTarget="#skills" />
