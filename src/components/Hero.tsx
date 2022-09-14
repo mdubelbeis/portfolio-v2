@@ -1,6 +1,5 @@
 import React from 'react';
-import ArrowDown from '../ui/ArrowDown';
-import Contact from './Contact';
+
 
 const Hero: React.FC = () => {
   return (

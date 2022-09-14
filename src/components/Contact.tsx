@@ -11,26 +11,26 @@ const Contact: React.FC = () => {
       <div id="content-container" className="md:fixed h-full p-4 shadow-xl">
         <ul
           id="contact-links-wrapper"
-          className={`flex items-center justify-end gap-6 md:flex-col lg:justify-center`}
+          className={`flex gap-8 md:flex-col`}
         >
           <li>
             <a href="https://www.github.com/mdubelbeis" target="_blank">
-              <FaGithub size={40} className="text-slate-400 hover:text-green-500" />
+              <FaGithub size={40} className="text-slate-400 hover:text-green-500 active:text-green-500 focus:text-green-500" />
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/mason-dub/" target="_blank">
-              <FaLinkedin size={40} className="text-[#0072b1] hover:text-green-500" />
+              <FaLinkedin size={40} className="text-[#0072b1] hover:text-green-500 active:text-green-500 focus:text-green-500" />
             </a>
           </li>
           <li>
             <a href="https://twitter.com/mason_dubelbeis" target="_blank">
-              <FaTwitter size={40} className="text-[#1DA1F2] hover:text-green-500" />
+              <FaTwitter size={40} className="text-[#1DA1F2] hover:text-green-500 active:text-green-500 focus:text-green-500" />
             </a>
           </li>
           <li>
             <a href="mailto:mason.dubelbeis@gmail.com.com">
-              <MdAlternateEmail size={40} className="text-slate-400 hover:text-green-500" />
+              <MdAlternateEmail size={40} className="text-slate-400 hover:text-green-500 active:text-green-500 focus:text-green-500" />
             </a>
           </li>
         </ul>
