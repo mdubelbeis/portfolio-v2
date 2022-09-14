@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
       <div className="flex flex-col justify-center gap-4">
         <h1 className="font-hero-title text-8xl text-blue-500">Mason Dubelbeis</h1>
         <ul>
-          <li className="mx-auto w-9/12 border-b-[0.05rem] border-t-[0.05rem] border-slate-200 font-hero-text text-xl md:text-2xl lg:text-3xl">
+          <li className="mx-auto w-9/12 border-b-[0.05rem] border-t-[0.05rem] border-slate-200 font-hero-text text-3xl">
             FRONTEND DEVELOPER
           </li>
           {/* <li className="text-md mt-2 md:text-lg lg:mt-4 lg:text-2xl">732-228-2390</li> */}
