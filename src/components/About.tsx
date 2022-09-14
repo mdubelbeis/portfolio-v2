@@ -22,7 +22,7 @@ const About: React.FC = () => {
       </div>
       <div
         id="resume"
-        className="lg:text-2xl] hidden animate-pulse rounded-lg bg-blue-500 py-2 px-8 text-xl tracking-wider text-white drop-shadow-lg hover:animate-none hover:cursor-pointer hover:border hover:border-blue-500 hover:bg-slate-200 hover:text-blue-500 md:block"
+        className="lg:text-2xl animate-pulse rounded-lg bg-blue-500 py-4 px-10 text-xl tracking-wider text-white drop-shadow-lg hover:animate-none hover:cursor-pointer hover:border hover:border-blue-500 hover:bg-slate-200 hover:text-blue-500 md:block"
       >
         <a href="/assets/resume/Resume_tech.pdf" target="_blank" rel="noopener noreferrer" download>
           RESUME
