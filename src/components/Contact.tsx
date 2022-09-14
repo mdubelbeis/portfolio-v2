@@ -10,7 +10,7 @@ const Contact: React.FC = () => {
     setShowContactLinks(!showContactLinks);
   };
 
-  let showMenu = showContactLinks ? 'block' : 'hidden lg:block';
+  let showMenu = showContactLinks ? 'block' : 'hidden lg:flex';
 
   return (
     <aside
@@ -18,7 +18,7 @@ const Contact: React.FC = () => {
     >
       {/* <h3 className="text-black text-5xl">CONTACT</h3> */}
       <div id="content-container" className="p-2">
-        <div id="contact-links-wrapper" className={`${showMenu} gap-4 flex flex-col items-center justify-center mb-4 lg:gap-8`}>
+        <div id="contact-links-wrapper" className={`${showMenu} flex flex-col items-center justify-center gap-4 mb-4`}>
           <div>
             <a href="www.github.com/mdubelbeis" target="_blank">
               <FaGithub size={40} />
