@@ -29,7 +29,7 @@ const About: React.FC = () => {
         </a>
       </div>
 
-      <Contact />
+      {/* <Contact /> */}
       {/* <div className="absolute bottom-36 text-blue-500">
         <ArrowDown elementTarget="#skills" />
       </div> */}

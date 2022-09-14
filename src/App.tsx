@@ -1,9 +1,9 @@
 import About from './components/About';
-import Heading from './components/Heading';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 const PROJECTS = [
   {
@@ -67,8 +67,8 @@ const PROJECTS = [
 const App: React.FC = () => {
   return (
     <div className="mx-auto w-full max-w-6xl">
-      <Heading />
       <Hero />
+      <Contact/>
       <main>
         <About />
         <Skills />
