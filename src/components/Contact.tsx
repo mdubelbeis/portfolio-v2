@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
           id="contact-links-wrapper"
           className={`flex gap-8 md:flex-col`}
         >
-          <li className="w-full border-[0.1rem] border-transparent shadow-xl p-2 rounded-full hover:border-green-400 text-slate-500 hover:text-green-500 active:text-green-500 focus:text-green-500">
+          <li className="w-full border-[0.1rem] border-transparent shadow-xl p-2 rounded-full hover:border-green-400 text-[#0072b1] bg-transparent hover:text-green-500 active:text-green-500 focus:text-green-500">
             <a href="https://www.github.com/mdubelbeis" target="_blank">
               <FaGithub size={40} />
             </a>
@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
               <FaTwitter size={40} />
             </a>
           </li>
-          <li className="w-full border-[0.1rem] border-transparent shadow-xl p-2 rounded-full hover:border-green-400 text-slate-400 hover:text-green-500 active:text-green-500 focus:text-green-500">
+          <li className="w-full border-[0.1rem] border-transparent shadow-xl p-2 rounded-full hover:border-green-400 text-[#0072b1] hover:text-green-500 active:text-green-500 focus:text-green-500">
             <a href="mailto:mason.dubelbeis@gmail.com.com">
               <MdAlternateEmail size={40} />
             </a>
