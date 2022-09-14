@@ -12,7 +12,7 @@ const ICONS = [
 
 const Skills: React.FC = () => {
   return (
-    <section id="skills" className="relative flex h-screen w-full flex-col items-center justify-start py-10 text-white">
+    <section id="skills" className="relative flex w-full flex-col items-center justify-start py-10 text-white">
       <div className="p-4">
         <h2 className="mb-2 text-center font-hero-text text-4xl tracking-widest text-white lg:text-6xl">SKILLS</h2>
       </div>
