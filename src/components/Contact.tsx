@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FaGithub, FaLinkedin, FaTwitter, FaHamburger } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import {MdAlternateEmail, MdMenu, MdClose} from 'react-icons/md'
 
 import React from 'react';
