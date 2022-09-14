@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { FaGithub, FaLinkedin, FaTwitter, FaHamburger } from 'react-icons/fa';
-import {MdAlternateEmail} from 'react-icons/md'
+import {MdAlternateEmail, MdMenu, MdClose} from 'react-icons/md'
 
 import React from 'react';
 
@@ -45,7 +45,8 @@ const Contact: React.FC = () => {
         </div>
         <div className="flex justify-center">
           <button className="lg:hidden" onClick={handleMenuClick}>
-            <FaHamburger size={40} />
+            {!showContactLinks && <MdMenu size={40} />}
+            {showContactLinks && <MdClose size={40} className="text-red-500"/>}
           </button>
         </div>
       </div>
