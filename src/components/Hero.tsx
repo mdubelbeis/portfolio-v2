@@ -3,7 +3,7 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <div className="h-full flex flex-col items-center justify-center py-10 bg-slate-800 bg-hero-pattern bg-cover bg-no-repeat text-center font-hero-text text-white bg-blend-multiply">
+    <div className="h-full flex flex-col items-center justify-center py-8 bg-slate-800 bg-hero-pattern bg-cover bg-no-repeat text-center font-hero-text text-white bg-blend-multiply">
       <div className="flex flex-col justify-center gap-4">
         <h1 className="font-hero-title text-8xl text-blue-500">Mason Dubelbeis</h1>
         <ul>
