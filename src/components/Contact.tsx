@@ -10,14 +10,14 @@ const Contact: React.FC = () => {
     setShowContactLinks(!showContactLinks);
   };
 
-  let showMenu = showContactLinks ? 'block' : 'hidden';
+  let showMenu = showContactLinks ? 'block' : 'hidden lg:block';
 
   return (
     <aside
-      className={`absolute right-6 bottom-4 flex flex-col rounded-full md:right-0 md:rounded-2xl lg:top-[33%] lg:right-8`}
+      className={`absolute right-6 bottom-4 flex flex-col rounded-full lg:right-8 md:rounded-2xl lg:top-[33%]`}
     >
       {/* <h3 className="text-black text-5xl">CONTACT</h3> */}
-      <div id="content-container" className={`${!showMenu ? '' : 'p-2'}`}>
+      <div id="content-container" className="p-2">
         <div id="contact-links-wrapper" className={`${showMenu} gap-4 flex flex-col items-center justify-center mb-4 lg:gap-8`}>
           <div>
             <a href="www.github.com/mdubelbeis" target="_blank">
@@ -35,9 +35,9 @@ const Contact: React.FC = () => {
             </a>
           </div>
         </div>
-          <button className="lg:hidden" onClick={handleMenuClick}>
-            <FaHamburger size={40} />
-          </button>
+        <button className="lg:hidden" onClick={handleMenuClick}>
+          <FaHamburger size={40} />
+        </button>
       </div>
     </aside>
   );
