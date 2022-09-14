@@ -66,9 +66,9 @@ const PROJECTS = [
 
 const App: React.FC = () => {
   return (
-    <div className="mx-auto w-full max-w-6xl">
+    <div className="relative mx-auto w-full max-w-6xl">
+      <Contact />
       <Hero />
-      <Contact/>
       <main>
         <About />
         <Skills />
