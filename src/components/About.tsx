@@ -1,4 +1,5 @@
 import ArrowDown from '../ui/ArrowDown';
+import Contact from './Contact';
 
 const About: React.FC = () => {
   return (
@@ -22,6 +23,7 @@ const About: React.FC = () => {
       >
         <a href="/assets/resume/Resume_tech.pdf" target="_blank" rel="noopener noreferrer" download>RESUME</a>
       </div>
+      <Contact/>
       {/* <div className="absolute bottom-36 text-blue-500">
         <ArrowDown elementTarget="#skills" />
       </div> */}
