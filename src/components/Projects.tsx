@@ -19,7 +19,7 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
           <img className="w-11/12 rounded-lg" src={project.projectBgImg} alt={project.projectName} />
           <div className="space-y-2 p-4">
             <a
-              className="font-hero-title text-3xl underline underline-offset-4 text-blue-500 hover:text-black md:text-4xl"
+              className="font-hero-title text-3xl text-blue-500 underline underline-offset-4 hover:text-black md:text-4xl"
               href={project.projectLink}
               target="_blank"
             >
@@ -32,7 +32,10 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
     );
   });
   return (
-    <section id="projects" className="flex flex-col items-center justify-center gap-4 bg-white px-4 py-20 text-center min-h-screen">
+    <section
+      id="projects"
+      className="flex min-h-screen flex-col items-center justify-center gap-4 bg-white px-4 py-20 text-center"
+    >
       <h2 className="mb-10 text-center font-hero-text text-4xl tracking-wider text-black lg:text-6xl">PROJECTS</h2>
       <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-6">{projectList}</div>
       <div className="relative top-12 text-blue-500">
