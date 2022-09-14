@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { FaGithub, FaLinkedin, FaTwitter, FaHamburger } from 'react-icons/fa';
+import {MdAlternateEmail} from 'react-icons/md'
 
 import React from 'react';
 
@@ -32,6 +33,13 @@ const Contact: React.FC = () => {
           <div>
             <a href="https://twitter.com/mason_dubelbeis" target="_blank">
               <FaTwitter size={40} className="text-[#1DA1F2]" />
+            </a>
+          </div>
+          <div>
+          <a
+              href="mailto:mason.dubelbeis@gmail.com.com"
+            >
+              <MdAlternateEmail size={40} className="text-green-500"/>
             </a>
           </div>
         </div>
