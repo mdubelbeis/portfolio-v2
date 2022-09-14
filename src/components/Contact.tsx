@@ -1,10 +1,13 @@
-import React from 'react';
+import { FaLinkedin } from "react-icons/fa";
+
 
 const Contact: React.FC = () => {
   return (
     <section>
       <h1 className="bg-black text-white">HIRE ME</h1>
-      <div></div>
+      <div>
+        <FaLinkedin/>
+      </div>
     </section>
   );
 };
