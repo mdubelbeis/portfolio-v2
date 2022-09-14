@@ -18,7 +18,7 @@ const Contact: React.FC = () => {
     >
       {/* <h3 className="text-black text-5xl">CONTACT</h3> */}
       <div id="content-container" className="p-2">
-        <div id="contact-links-wrapper" className={`${showMenu} flex flex-col items-center justify-center gap-4 mb-4`}>
+        <div id="contact-links-wrapper" className={`${showMenu} flex flex-col items-center justify-end gap-4 lg:justify-center lg:gap-8 mb-4`}>
           <div>
             <a href="www.github.com/mdubelbeis" target="_blank">
               <FaGithub size={40} />
@@ -35,9 +35,11 @@ const Contact: React.FC = () => {
             </a>
           </div>
         </div>
-        <button className="lg:hidden" onClick={handleMenuClick}>
-          <FaHamburger size={40} />
-        </button>
+        <div className="flex justify-center">
+          <button className="lg:hidden" onClick={handleMenuClick}>
+            <FaHamburger size={40} />
+          </button>
+        </div>
       </div>
     </aside>
   );
