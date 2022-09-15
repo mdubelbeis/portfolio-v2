@@ -7,11 +7,11 @@ const About: React.FC = () => {
 
   return (
     <section
-      className="relative flex flex-col items-center justify-center gap-10 py-28 md:gap-20 bg-slate-100 lg:py-72 px-4 font-hero-text leading-loose tracking-wide text-black"
+      className="relative flex flex-col items-center justify-center gap-10 py-28 lg:gap-20 bg-slate-100 lg:py-72 px-4 font-hero-text leading-loose tracking-wide text-black"
     >
-      <h2 className="text-center font-hero-text text-4xl text-black lg:text-6xl">WHO AM I?</h2>
+      <h2 className="text-center font-hero-text text-4xl text-black lg:text-6xl">ME</h2>
       <div className="md:w-9/12 lg:w-6/12">
-        <p className="text-center text-xl lg:text-2xl lg:leading-relaxed">
+        <p className="text-center lg:text-left text-xl lg:text-2xl lg:leading-relaxed">
           I am a passionate self-taught <span className="lg:4xl text-2xl text-blue-500">FRONTEND DEVELOPER</span>. I
           strive to solve any problem that presents itself and committed to{' '}
           <span className="lg:4xl text-2xl text-blue-500">UI/UX DEVELOPMENT</span> and{' '}
