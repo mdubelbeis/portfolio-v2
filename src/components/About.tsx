@@ -17,9 +17,9 @@ const About: React.FC = () => {
       </div>
       <div
         id="resume"
-        className="animate-pulse rounded-lg bg-blue-500 py-4 px-10 text-xl tracking-wider text-white drop-shadow-lg hover:animate-none hover:cursor-pointer hover:border hover:border-blue-500 hover:bg-slate-200 hover:text-blue-500 md:block lg:text-2xl"
+        className="animate-pulse mt-12 rounded-lg bg-blue-500 py-6 px-2 text-xl tracking-wider text-white drop-shadow-lg hover:animate-none hover:cursor-pointer hover:border hover:border-blue-500 hover:bg-slate-200 hover:text-blue-500 md:block lg:text-2xl"
       >
-        <a href="/assets/resume/Resume_tech.pdf" target="_blank" rel="noopener noreferrer" download>
+        <a className="p-10" href="/assets/resume/Resume_tech.pdf" target="_blank" rel="noopener noreferrer" download>
           RESUME
         </a>
       </div>
