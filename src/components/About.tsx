@@ -1,10 +1,6 @@
 import { useState } from 'react';
-import ArrowDown from '../ui/ArrowDown';
-import Contact from './Contact';
 
 const About: React.FC = () => {
-  const [showButton, setShowButton] = useState(false);
-
   return (
     <section
       className="relative flex flex-col items-center justify-center gap-10 py-28 lg:gap-20 bg-slate-100 lg:py-72 px-4 font-hero-text leading-loose tracking-wide text-black"
@@ -27,11 +23,6 @@ const About: React.FC = () => {
           RESUME
         </a>
       </div>
-
-      {/* <Contact /> */}
-      {/* <div className="absolute bottom-36 text-blue-500">
-        <ArrowDown elementTarget="#skills" />
-      </div> */}
     </section>
   );
 };
