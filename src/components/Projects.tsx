@@ -21,9 +21,9 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
             src={project.projectBgImg}
             alt={project.projectName}
           />
-          <div className="w-full space-y-2 border-[1px] p-4 shadow-xl hover:bg-blue-300 hover:text-white">
+          <div className="s w-full space-y-2 border-[1px] border-t-0 border-white p-4 shadow-xl">
             <a
-              className="font-hero-title text-3xl text-blue-500 underline underline-offset-4 hover:text-black md:text-4xl"
+              className="font-hero-title text-3xl text-blue-500 underline underline-offset-4 hover:text-blue-700 md:text-4xl"
               href={project.projectLink}
               target="_blank"
             >
