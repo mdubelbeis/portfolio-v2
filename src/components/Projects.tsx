@@ -1,5 +1,3 @@
-import ArrowUp from '../ui/ArrowUp';
-
 interface ProjectProps {
   projects: {
     id: number;
