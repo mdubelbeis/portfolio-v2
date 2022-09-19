@@ -11,13 +11,13 @@ const ICONS = [
 
 const Skills: React.FC = () => {
   return (
-    <section className="relative flex w-full flex-col items-center justify-start bg-slate-800 bg-hero-pattern bg-cover bg-no-repeat py-10 text-white bg-blend-multiply">
+    <section className="relative flex w-full flex-col items-center justify-start bg-slate-800 bg-hero-pattern bg-cover bg-no-repeat py-20 text-white bg-blend-multiply">
       <div className="p-4">
         <h2 className="mb-2 text-center font-hero-text text-4xl tracking-widest text-white lg:text-6xl">SKILLS</h2>
       </div>
-      <div className="mt-16 grid grid-cols-2 gap-10 lg:grid-cols-3 lg:gap-20">
+      <div className="mt-16 grid grid-cols-2 gap-20 lg:grid-cols-3">
         {ICONS.map((icon) => {
-          return <img className="mb-6 w-20 lg:w-32" src={icon.icon} alt={icon.altText} />;
+          return <img className="w-20" src={icon.icon} alt={icon.altText} />;
         })}
       </div>
     </section>
