@@ -15,9 +15,15 @@ const About: React.FC = () => {
       </div>
       <div
         id="resume"
-        className="mt-12 animate-pulse rounded-lg bg-blue-500 py-4 px-6 text-xl tracking-wider text-white shadow hover:animate-none hover:cursor-pointer hover:border hover:border-blue-500 hover:bg-white hover:text-blue-500 md:block lg:text-2xl"
+        className="mt-12 animate-pulse rounded-lg bg-blue-500 py-4 px-6 text-xl tracking-wider text-white shadow-xl hover:animate-none hover:cursor-pointer hover:border hover:border-blue-500 hover:bg-white hover:text-blue-500 md:block lg:text-2xl"
       >
-        <a href="/assets/resume/Resume_tech.pdf" target="_blank" rel="noopener noreferrer" download>
+        <a
+          className="drop-shadow-xl"
+          href="/assets/resume/Resume_tech.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
           CURRICULUM VITAE
         </a>
       </div>
