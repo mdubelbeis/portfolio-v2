@@ -16,7 +16,7 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
     return (
       <div key={project.id} className="flex flex-col items-center justify-center bg-white py-4 text-center lg:py-6">
         <div className="flex max-w-lg flex-col items-center justify-center lg:px-4">
-          <img className="w-11/12 rounded-lg" src={project.projectBgImg} alt={project.projectName} />
+          <img className="w-full rounded-lg" src={project.projectBgImg} alt={project.projectName} />
           <div className="space-y-2 p-4">
             <a
               className="font-hero-title text-3xl text-blue-500 underline underline-offset-4 hover:text-black md:text-4xl"
