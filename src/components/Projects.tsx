@@ -23,7 +23,7 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
         >
           <div className="flex flex-col items-center justify-center">
             <img className="w-full rounded-lg rounded-b-none" src={project.projectBgImg} alt={project.projectName} />
-            <div className="w-full space-y-2 border-[1px] border-t-0 border-white p-4 shadow-xl">
+            <div className="w-full space-y-2 border-[1px] border-t-0 border-white py-6 px-4 shadow-xl">
               <p className="font-hero-title text-3xl text-blue-500 underline underline-offset-4 hover:text-blue-700 md:text-4xl">
                 {project.projectName}
               </p>
