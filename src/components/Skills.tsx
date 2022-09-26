@@ -7,6 +7,8 @@ const ICONS = [
   { icon: '/assets/icons/js-icons/js-512.png', altText: 'javascript icon' },
   { icon: '/assets/icons/typescript-icons/typescript-512.png', altText: 'typescript icon' },
   { icon: '/assets/icons/react-icons/react-512.png', altText: 'react icon' },
+  { icon: '/assets/icons/bootstrap.png', altText: 'bootstrap icon' },
+  { icon: '/assets/icons/git (1).png', altText: 'git icon' },
 ];
 
 const Skills: React.FC = () => {
