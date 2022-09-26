@@ -23,7 +23,7 @@ const About: React.FC = () => {
           an <span className={spanText}> ASSET</span> to your company.
         </p>
       </div>
-      <Button py="py-4" px="px-6" textSize="text-xl">
+      <Button py="py-4" px="px-6" textSize="text-xl" marginTop="mt-10">
         CURRICULUM VITAE
       </Button>
     </section>

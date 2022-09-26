@@ -30,7 +30,9 @@ const Contact: React.FC = () => {
               </li>
             );
           })}
-          <Button hidden="hidden">CV</Button>
+          <Button hidden="hidden" py="py-2" px="px-4" marginTop="mt-2">
+            CV
+          </Button>
         </ul>
       </div>
     </nav>
