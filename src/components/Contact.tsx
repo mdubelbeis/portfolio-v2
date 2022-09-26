@@ -13,9 +13,8 @@ const ICONS = [
 const Contact: React.FC = () => {
   return (
     <nav className={`z-10 mx-auto flex justify-around py-2 md:absolute md:left-0 md:top-0 md:block md:h-full md:pt-2`}>
-      {/* <h3 className="text-black text-5xl">CONTACT</h3> */}
       <div id="content-container" className="h-full py-1 px-4 shadow-xl md:fixed">
-        <ul id="contact-links-wrapper" className={`flex gap-10 md:flex-col`}>
+        <ul id="contact-links-wrapper" className={`flex gap-4 md:flex-col lg:gap-10`}>
           {ICONS.map((icon) => {
             return (
               <li
@@ -30,7 +29,7 @@ const Contact: React.FC = () => {
           })}
           <div
             id="resume"
-            className="text-md hidden animate-pulse rounded-lg bg-blue-500 text-center text-white shadow-lg hover:animate-none hover:cursor-pointer hover:border-none hover:bg-blue-700 hover:shadow-xl active:shadow-lg md:block md:py-2 md:px-4 md:text-lg lg:text-2xl"
+            className="text-md mt-2 hidden animate-pulse rounded-lg bg-blue-500 text-center text-white shadow-lg hover:animate-none hover:cursor-pointer hover:border-none hover:bg-blue-700 hover:shadow-xl active:shadow-lg md:py-2 md:px-4 md:text-lg lg:block lg:text-2xl"
           >
             <a
               className="drop-shadow-xl focus:outline-blue-700"
