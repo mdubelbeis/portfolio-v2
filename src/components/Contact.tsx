@@ -2,6 +2,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { MdAlternateEmail } from 'react-icons/md';
 
 import React from 'react';
+import Button from '../ui/Button';
 
 const ICONS = [
   { icon: <FaGithub size={40} />, url: 'https://www.github.com/mdubelbeis' },
@@ -12,7 +13,9 @@ const ICONS = [
 
 const Contact: React.FC = () => {
   return (
-    <nav className={`z-10 mx-auto flex justify-around py-2 md:absolute md:left-0 md:top-0 md:block md:h-full md:pt-2`}>
+    <nav
+      className={`z-10 mx-auto flex w-full justify-around py-2 md:absolute md:left-0 md:top-0 md:block md:h-full md:pt-2`}
+    >
       <div id="content-container" className="h-full py-1 px-4 shadow-xl md:fixed">
         <ul id="contact-links-wrapper" className={`flex gap-4 md:flex-col lg:gap-10`}>
           {ICONS.map((icon) => {
@@ -27,20 +30,7 @@ const Contact: React.FC = () => {
               </li>
             );
           })}
-          <div
-            id="resume"
-            className="text-md mt-2 hidden animate-pulse rounded-lg bg-blue-500 text-center text-white shadow-lg hover:animate-none hover:cursor-pointer hover:border-none hover:bg-blue-700 hover:shadow-xl active:shadow-lg md:py-2 md:px-4 md:text-lg lg:block lg:text-2xl"
-          >
-            <a
-              className="drop-shadow-xl focus:outline-blue-700"
-              href="/assets/resume/Resume_tech.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              download
-            >
-              CV
-            </a>
-          </div>
+          <Button hidden="hidden">CV</Button>
         </ul>
       </div>
     </nav>

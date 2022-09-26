@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Button from '../ui/Button';
 
 const About: React.FC = () => {
   const spanText = 'lg:4xl text-2xl text-blue-500';
@@ -22,20 +23,9 @@ const About: React.FC = () => {
           an <span className={spanText}> ASSET</span> to your company.
         </p>
       </div>
-      <div
-        id="resume"
-        className="mt-12 animate-pulse rounded-lg bg-blue-500 py-4 px-6 text-xl tracking-wider text-white shadow-xl hover:animate-none hover:cursor-pointer hover:border-none hover:bg-white hover:text-blue-500 md:block lg:text-2xl"
-      >
-        <a
-          className="drop-shadow-xl focus:outline-blue-700"
-          href="/assets/resume/Resume_tech.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          download
-        >
-          CURRICULUM VITAE
-        </a>
-      </div>
+      <Button py="py-2" px="px-6" textSize="text-xl">
+        CURRICULUM VITAE
+      </Button>
     </section>
   );
 };
