@@ -16,17 +16,17 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
         key={project.id}
         className="mb-20 flex w-full flex-col items-center justify-center bg-white py-4 text-center lg:mb-0 lg:py-6"
       >
-        <a href={project.projectLink} className="hover:border-slate-400 hover:text-blue-800" target="_blank">
+        <a
+          href={project.projectLink}
+          className="hover:bg-slate-200 hover:text-blue-800 hover:outline-cyan-700 focus:bg-slate-200 focus:text-blue-800 focus:outline-cyan-700 active:bg-slate-200 active:text-blue-800 active:outline-cyan-700"
+          target="_blank"
+        >
           <div className="flex flex-col items-center justify-center">
             <img className="w-full rounded-lg rounded-b-none" src={project.projectBgImg} alt={project.projectName} />
-            <div className="w-full space-y-2 border-[1px] border-t-0 border-white p-4 shadow-xl hover:bg-slate-100">
-              <a
-                className="font-hero-title text-3xl text-blue-500 underline underline-offset-4 hover:text-blue-700 md:text-4xl"
-                href={project.projectLink}
-                target="_blank"
-              >
+            <div className="w-full space-y-2 border-[1px] border-t-0 border-white p-4 shadow-xl">
+              <p className="font-hero-title text-3xl text-blue-500 underline underline-offset-4 hover:text-blue-700 md:text-4xl">
                 {project.projectName}
-              </a>
+              </p>
               <p className="px-8 font-hero-text tracking-wider">{project.projectText}</p>
               <ul className="flex items-center justify-center gap-4 font-hero-text">
                 {project.projectTech.map((tech) => {

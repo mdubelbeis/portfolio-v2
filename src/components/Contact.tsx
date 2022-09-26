@@ -20,9 +20,9 @@ const Contact: React.FC = () => {
             return (
               <li
                 key={Math.random()}
-                className="w-full rounded-full border-[0.1rem] border-blue-500 border-b-transparent border-t-transparent border-opacity-60 p-2 text-blue-500 shadow-xl hover:border-blue-700 hover:border-r-transparent hover:border-l-transparent  hover:border-opacity-60 hover:text-blue-700 focus:border-none focus:text-blue-700 active:text-blue-700"
+                className="w-full rounded-full border-[0.1rem] border-blue-500 border-b-transparent border-t-transparent border-opacity-60 p-2 text-blue-500 shadow-xl hover:border-blue-700 hover:border-r-transparent hover:border-l-transparent hover:border-opacity-60 hover:text-blue-700 focus:border-blue-700 focus:border-r-transparent focus:border-l-transparent focus:border-opacity-60 focus:text-blue-700 focus:outline-none active:border-blue-700 active:border-r-transparent active:border-l-transparent active:border-opacity-60 active:text-blue-700"
               >
-                <a href={icon.url} target="_blank">
+                <a href={icon.url} target="_blank" className="focus:outline-cyan-700">
                   {icon.icon}
                 </a>
               </li>
