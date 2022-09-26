@@ -11,7 +11,7 @@ const ICONS = [
 
 const Skills: React.FC = () => {
   return (
-    <section className="relative flex w-full flex-col items-center justify-start bg-slate-800 bg-hero-pattern bg-cover bg-no-repeat py-20 text-white bg-blend-multiply">
+    <section className="relative flex w-full flex-col items-center justify-start bg-slate-800 bg-hero-pattern bg-cover bg-no-repeat py-20 text-white bg-blend-multiply lg:flex-row lg:items-center lg:justify-center lg:gap-20 xl:gap-40">
       <div className="p-4">
         <h2 className="mb-2 font-hero-text text-4xl tracking-widest text-white lg:text-6xl">SKILLS</h2>
       </div>
