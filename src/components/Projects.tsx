@@ -18,13 +18,13 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
       >
         <a
           href={project.projectLink}
-          className="hover:text-blue-800 hover:outline-cyan-700 focus:text-blue-800 focus:outline-cyan-700 active:text-blue-800 active:outline-cyan-700"
+          className="hover:text-blue-700 hover:outline-blue-700 focus:outline-blue-700 active:text-blue-900 active:outline-blue-700"
           target="_blank"
         >
           <div className="flex max-h-fit flex-col items-center justify-center">
             <img className="w-full rounded-lg rounded-b-none" src={project.projectBgImg} alt={project.projectName} />
             <div className="w-full space-y-2 border-[1px] border-t-0 border-white py-8 px-4">
-              <p className="font-cursive text-2xl font-thin tracking-wider text-blue-500 underline underline-offset-4 hover:text-blue-700 md:text-3xl">
+              <p className="font-cursive text-2xl font-thin tracking-wider text-blue-700 underline underline-offset-4 focus:text-blue-900 active:text-blue-900  md:text-3xl">
                 {project.projectName}
               </p>
               <p className="px-8 font-hero-text">{project.projectText}</p>
