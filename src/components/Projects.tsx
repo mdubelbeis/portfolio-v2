@@ -40,8 +40,10 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
     );
   });
   return (
-    <section className="flex h-full w-full flex-col items-center justify-center gap-2 bg-white px-4 py-40 text-center md:px-32">
-      <h2 className="mb-32 text-center font-hero-text text-4xl tracking-wider text-black lg:text-6xl">PROJECTS</h2>
+    <section className="flex h-full w-full flex-col items-center justify-center gap-2 bg-white px-4 py-20 text-center md:px-32 lg:py-40">
+      <h2 className="mb-20 text-center font-hero-text text-4xl tracking-wider text-black lg:mb-32 lg:text-6xl">
+        PROJECTS
+      </h2>
       <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-6 xl:grid-cols-3">{projectList}</div>
     </section>
   );
