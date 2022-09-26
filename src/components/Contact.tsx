@@ -12,12 +12,10 @@ const ICONS = [
 
 const Contact: React.FC = () => {
   return (
-    <nav
-      className={`z-10 mx-auto flex justify-around py-4 hover:text-cyan-700 md:absolute md:left-0 md:top-0 md:block md:h-full md:pt-6`}
-    >
+    <nav className={`z-10 mx-auto flex justify-around py-4 md:absolute md:left-0 md:top-0 md:block md:h-full md:pt-6`}>
       {/* <h3 className="text-black text-5xl">CONTACT</h3> */}
       <div id="content-container" className="h-full py-1 px-4 shadow-xl md:fixed">
-        <ul id="contact-links-wrapper" className={`flex gap-10 md:flex-col`}>
+        <ul id="contact-links-wrapper" className={`flex gap-4 md:flex-col md:gap-10`}>
           {ICONS.map((icon) => {
             return (
               <li
@@ -30,6 +28,20 @@ const Contact: React.FC = () => {
               </li>
             );
           })}
+          <div
+            id="resume"
+            className="text-md hidden animate-pulse rounded-lg bg-blue-500 py-2 px-4 text-center text-white shadow-lg hover:animate-none hover:cursor-pointer hover:border-none hover:bg-blue-700 hover:shadow-xl active:shadow-lg md:block md:block md:py-2 md:px-4 md:text-lg lg:text-2xl"
+          >
+            <a
+              className="drop-shadow-xl focus:outline-blue-700"
+              href="/assets/resume/Resume_tech.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+            >
+              C V
+            </a>
+          </div>
         </ul>
       </div>
     </nav>
