@@ -22,7 +22,7 @@ const Contact: React.FC = () => {
                 key={Math.random()}
                 className="w-full rounded-full border-opacity-60 p-4 text-blue-500 shadow-lg hover:text-blue-700 hover:shadow-xl focus:border-opacity-60 focus:text-blue-700 focus:outline-none active:shadow-lg"
               >
-                <a href={icon.url} target="_blank" className="">
+                <a href={icon.url} target="_blank" className="focus:outline-cyan-700 active:outline-cyan-700">
                   {icon.icon}
                 </a>
               </li>
