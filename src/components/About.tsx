@@ -5,7 +5,7 @@ const About: React.FC = () => {
     <section className="relative flex flex-col items-center justify-center gap-10 bg-slate-100 py-28 px-4 font-hero-text leading-loose tracking-wide text-black lg:gap-20 lg:py-72">
       <h2 className="text-center font-hero-text text-4xl text-black lg:text-6xl">WHO AM I?</h2>
       <div className="md:w-9/12 lg:w-6/12">
-        <p className="text-center text-xl lg:text-left lg:text-2xl lg:leading-relaxed">
+        <p className="text-center text-xl lg:text-2xl lg:leading-relaxed">
           A passionate self-taught <span className="lg:4xl text-2xl text-blue-500">FRONTEND DEVELOPER</span>. I strive
           to solve any problem that presents itself and committed to{' '}
           <span className="lg:4xl text-2xl text-blue-500">UI/UX DEVELOPMENT</span> and{' '}
