@@ -14,8 +14,8 @@ const Hero: React.FC = () => {
           {/* <li className="text-md mt-2 md:text-lg lg:mt-4 lg:text-2xl">732-228-2390</li> */}
         </ul>
         <div className="flex flex-col gap-2 text-lg tracking-wider md:text-2xl">
-          <small>732&bull;228&bull;2390</small>
           <small>MASON.DUBELBEIS@GMAIL.COM</small>
+          <small>732&bull;228&bull;2390</small>
         </div>
       </div>
     </div>
