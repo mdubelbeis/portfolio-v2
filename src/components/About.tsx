@@ -4,9 +4,9 @@ import Button from '../ui/Button';
 const About: React.FC = () => {
   const spanText = 'lg:4xl text-2xl text-blue-500';
   return (
-    <section className="relative flex flex-col items-center justify-center gap-10 bg-slate-100 py-28 px-10 font-hero-text leading-loose tracking-wide text-black lg:gap-20 lg:py-72">
+    <section className="relative flex flex-col items-center justify-center gap-10 bg-slate-100 py-28 px-4 font-hero-text leading-loose tracking-wide text-black lg:gap-20 lg:py-72">
       <h2 className="text-center font-hero-text text-4xl text-black lg:text-6xl">WHO AM I?</h2>
-      <div className="flex flex-col gap-6 text-center text-xl md:w-9/12 lg:text-2xl">
+      <div className="flex w-full flex-col gap-6 text-center text-xl md:w-9/12 lg:text-2xl">
         <p className="leading-10">
           I am a dedicated and passionate self-taught <span className={spanText}>FRONT-END WEB DEVELOPER</span> based
           out of Austin, TX, with a focus on{' '}
