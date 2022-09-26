@@ -12,8 +12,11 @@ interface ProjectProps {
 const Projects: React.FC<ProjectProps> = ({ projects }) => {
   const projectList = projects.map((project) => {
     return (
-      <div key={project.id} className="flex flex-col items-center justify-center bg-white py-4 text-center lg:py-6">
-        <div className="flex max-w-lg flex-col items-center justify-center lg:px-4">
+      <div
+        key={project.id}
+        className="mb-20 flex flex-col items-center justify-center bg-white py-4 text-center lg:mb-0 lg:py-6"
+      >
+        <div className="flex max-w-2xl flex-col items-center justify-center lg:px-4">
           <img
             className="w-full rounded-lg rounded-b-none shadow-lg"
             src={project.projectBgImg}
@@ -34,7 +37,7 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
     );
   });
   return (
-    <section className="flex h-full w-full flex-col items-center justify-center gap-4 bg-white px-20 py-20 text-center">
+    <section className="flex h-full w-full flex-col items-end justify-center gap-2 bg-white px-4 py-20 text-center md:px-32">
       <h2 className="mb-10 text-center font-hero-text text-4xl tracking-wider text-black lg:text-6xl">PROJECTS</h2>
       <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-6">{projectList}</div>
     </section>
