@@ -18,8 +18,8 @@ const About: React.FC = () => {
         </p>
         <p>
           I will provide your company with an
-          <span className={spanText}> OUTSTANDING TEAM MEMBER</span> that will hit the ground running and earning a spot
-          as an <span className={spanText}> ASSET</span> for your company.
+          <span className={spanText}> OUTSTANDING TEAM MEMBER</span> who will hit the ground running and earn a spot as
+          an <span className={spanText}> ASSET</span> to your company.
         </p>
       </div>
       <div
