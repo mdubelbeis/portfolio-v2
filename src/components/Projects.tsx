@@ -14,10 +14,10 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
     return (
       <div
         key={project.id}
-        className="mb-20 flex flex-col items-center justify-center bg-white py-4 text-center lg:mb-0 lg:py-6"
+        className="mb-20 flex w-full flex-col items-center justify-center bg-white py-4 text-center lg:mb-0 lg:py-6"
       >
         <a href={project.projectLink} className="hover:border-slate-400 hover:text-blue-800" target="_blank">
-          <div className="flex max-w-2xl flex-col items-center justify-center lg:px-4">
+          <div className="flex flex-col items-center justify-center">
             <img className="w-full rounded-lg rounded-b-none" src={project.projectBgImg} alt={project.projectName} />
             <div className="w-full space-y-2 border-[1px] border-t-0 border-white p-4 shadow-xl hover:bg-slate-100">
               <a
