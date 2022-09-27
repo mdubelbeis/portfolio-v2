@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Button from '../ui/Button';
 
 const About: React.FC = () => {
@@ -6,7 +5,7 @@ const About: React.FC = () => {
   return (
     <section className="relative flex flex-col items-center justify-center gap-10 bg-slate-100 py-28 font-hero-text leading-loose tracking-wide text-black md:px-8 lg:gap-20 lg:py-72">
       <h2 className="text-center font-hero-text text-4xl text-black lg:text-6xl">WHO AM I?</h2>
-      <div className="flex w-full flex-col gap-6 px-2 text-center text-xl md:w-9/12 lg:text-2xl">
+      <div className="flex w-full flex-col gap-6 px-2 text-center text-lg md:w-9/12 md:text-xl lg:text-2xl">
         <p className="leading-10">
           I am a dedicated and passionate self-taught <span className={spanText}>FRONT-END WEB DEVELOPER</span> based
           out of Austin, TX, with a focus on{' '}
