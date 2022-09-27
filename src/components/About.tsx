@@ -1,7 +1,7 @@
 import Button from '../ui/Button';
 
 const About: React.FC = () => {
-  const spanText = 'lg:4xl text-2xl text-blue-500';
+  const spanText = 'text-2xl text-blue-500 lg:4xl';
   return (
     <section className="relative flex flex-col items-center justify-center gap-10 bg-slate-100 py-28 font-hero-text leading-loose tracking-wide text-black md:px-8 lg:gap-20 lg:py-72">
       <h2 className="text-center font-hero-text text-4xl text-black lg:text-6xl">WHO AM I?</h2>
@@ -22,7 +22,7 @@ const About: React.FC = () => {
           an <span className={spanText}> ASSET</span> to your company.
         </p>
       </div>
-      <Button py="py-4" px="px-6" textSize="text-xl" marginTop="mt-10">
+      <Button py="md:py-4" px="md:px-6" textSize="text-xl" marginTop="mt-10">
         CURRICULUM VITAE
       </Button>
     </section>

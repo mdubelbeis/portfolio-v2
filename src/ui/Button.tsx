@@ -11,10 +11,10 @@ const Button: React.FC<ButtonProps> = ({ hidden, children, px, py, textSize, mar
   return (
     <div
       id="resume"
-      className={`${textSize} ${marginTop} ${hidden} ${py} ${px} rounded-lg bg-blue-500 text-center text-white shadow-lg hover:cursor-pointer hover:border-none hover:bg-blue-700 hover:shadow-xl active:shadow-lg ${`md:${py}`} ${`md:${px}`} md:text-lg lg:block lg:text-2xl`}
+      className={`${textSize} ${marginTop} ${hidden} ${py} ${px} rounded-lg bg-blue-500 text-center text-white shadow-lg hover:cursor-pointer hover:border-none hover:bg-blue-700 hover:shadow-xl active:shadow-lg md:text-lg lg:block lg:text-2xl`}
     >
       <a
-        className="drop-shadow-xl focus:outline-blue-700"
+        className="drop-shadow-lg focus:outline-blue-700"
         href="/assets/resume/Resume_tech.pdf"
         target="_blank"
         rel="noopener noreferrer"
