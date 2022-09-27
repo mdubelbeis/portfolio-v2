@@ -53,7 +53,7 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
       <h2 className="mb-20 text-center font-hero-text text-4xl tracking-wider text-black lg:mb-32 lg:text-6xl">
         PROJECTS
       </h2>
-      <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-10 lg:pl-10 xl:grid-cols-3">{projectList}</div>
+      <div className="md:pl-10 lg:grid lg:grid-cols-2 lg:items-start lg:gap-10 xl:grid-cols-3">{projectList}</div>
     </section>
   );
 };
