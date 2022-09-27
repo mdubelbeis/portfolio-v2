@@ -19,7 +19,7 @@ const Skills: React.FC = () => {
       </div>
       <div className="mt-16 grid grid-cols-2 gap-20 lg:grid-cols-3">
         {ICONS.map((icon) => {
-          return <img className="w-20" src={icon.icon} alt={icon.altText} />;
+          return <img key={Math.random()} className="w-20" src={icon.icon} alt={icon.altText} />;
         })}
       </div>
     </section>

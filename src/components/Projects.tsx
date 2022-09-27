@@ -14,7 +14,7 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
     return (
       <div
         key={project.id}
-        className="mb-20 flex w-full flex-col items-center justify-center bg-white text-center shadow-lg hover:cursor-pointer hover:bg-slate-100 hover:shadow-xl active:shadow-lg lg:mb-0"
+        className="mb-20 flex w-full flex-col items-center justify-center bg-white text-center shadow-lg hover:cursor-pointer hover:shadow-xl active:shadow-lg lg:mb-0"
       >
         <a
           href={project.projectLink}
@@ -24,7 +24,7 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
           <div className="flex flex-col items-center justify-center">
             <img className="w-full rounded-lg rounded-b-none" src={project.projectBgImg} alt={project.projectName} />
             <div className="w-full space-y-2 border-[1px] border-t-0 border-white py-8 px-4">
-              <p className="font-cursive text-2xl font-thin tracking-wider text-blue-700 underline underline-offset-4 focus:text-blue-900 active:text-blue-900  md:text-3xl">
+              <p className="font-cursive text-2xl font-thin tracking-wider text-blue-700 underline underline-offset-4 focus:text-blue-900 active:text-blue-900 md:text-3xl">
                 {project.projectName}
               </p>
               <p className="px-8 font-hero-text">{project.projectText}</p>
@@ -32,7 +32,11 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
           </div>
           <ul className="mb-2 flex items-center justify-center gap-4 font-hero-text">
             {project.projectTech.map((tech) => {
-              return <li className="tracking-wide text-blue-800">{tech}</li>;
+              return (
+                <li key={tech} className="tracking-wide text-blue-800">
+                  {tech}
+                </li>
+              );
             })}
           </ul>
         </a>
@@ -44,7 +48,7 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
       <h2 className="mb-20 text-center font-hero-text text-4xl tracking-wider text-black lg:mb-32 lg:text-6xl">
         PROJECTS
       </h2>
-      <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-6 xl:grid-cols-3">{projectList}</div>
+      <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-6 lg:pl-10 xl:grid-cols-3">{projectList}</div>
     </section>
   );
 };
