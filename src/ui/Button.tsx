@@ -15,7 +15,7 @@ const Button: React.FC<ButtonProps> = ({ hidden, children, px, py, textSize, mar
     >
       <a
         className="drop-shadow-lg focus:outline-blue-700"
-        href="/assets/resume/Resume_tech.pdf"
+        href="/assets/resume/MASON_DUBELBEIS_RESUME.pdf"
         target="_blank"
         rel="noopener noreferrer"
         download
