@@ -14,14 +14,14 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
     return (
       <div
         key={project.id}
-        className="mb-20 flex w-full flex-col items-center justify-center bg-white text-center shadow-lg hover:shadow-xl active:shadow-lg lg:mb-0"
+        className="mb-20 flex w-full flex-col items-center justify-center bg-white text-center shadow-lg hover:cursor-pointer hover:bg-slate-100 hover:shadow-xl active:shadow-lg lg:mb-0"
       >
         <a
           href={project.projectLink}
-          className="hover:bg-slate-100 hover:text-blue-700 hover:outline-blue-700 focus:outline-blue-700 active:text-blue-900 active:outline-blue-700"
+          className="hover:text-blue-700 focus:outline-blue-700 active:text-blue-900 active:outline-blue-700"
           target="_blank"
         >
-          <div className="flex max-h-fit flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-center">
             <img className="w-full rounded-lg rounded-b-none" src={project.projectBgImg} alt={project.projectName} />
             <div className="w-full space-y-2 border-[1px] border-t-0 border-white py-8 px-4">
               <p className="font-cursive text-2xl font-thin tracking-wider text-blue-700 underline underline-offset-4 focus:text-blue-900 active:text-blue-900  md:text-3xl">
