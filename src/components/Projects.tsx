@@ -21,7 +21,7 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
           className="hover:text-blue-700 focus:outline-blue-700 active:text-blue-900 active:outline-blue-700"
           target="_blank"
         >
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center">
             <img className="w-full rounded-lg rounded-b-none" src={project.projectBgImg} alt={project.projectName} />
             <div className="w-full space-y-2 border-[1px] border-t-0 border-white py-8 px-4">
               <p className="font-cursive text-2xl tracking-wider text-blue-700 underline underline-offset-4 focus:text-blue-900 active:text-blue-900 md:text-3xl">
@@ -29,16 +29,16 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
               </p>
               <p className="px-8 font-hero-text">{project.projectText}</p>
             </div>
+            <ul className="mb-2 flex items-end justify-center gap-4 font-hero-text">
+              {project.projectTech.map((tech) => {
+                return (
+                  <li key={tech} className="tracking-wide text-blue-800">
+                    {tech}
+                  </li>
+                );
+              })}
+            </ul>
           </div>
-          <ul className="mb-2 flex items-center justify-center gap-4 font-hero-text">
-            {project.projectTech.map((tech) => {
-              return (
-                <li key={tech} className="tracking-wide text-blue-800">
-                  {tech}
-                </li>
-              );
-            })}
-          </ul>
         </a>
       </div>
     );
