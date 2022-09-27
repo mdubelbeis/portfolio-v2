@@ -14,32 +14,37 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
     return (
       <div
         key={project.id}
-        className="mb-20 flex h-full w-full flex-col items-center justify-start bg-white text-center shadow-lg hover:cursor-pointer hover:shadow-xl active:shadow-lg lg:mb-0"
+        className="relative mb-20 flex h-full w-full flex-col items-center justify-between bg-white text-center shadow-lg hover:cursor-pointer hover:bg-slate-50 hover:shadow-xl active:shadow-lg lg:mb-0"
       >
         <a
           href={project.projectLink}
           className="hover:text-blue-700 focus:outline-blue-700 active:text-blue-900 active:outline-blue-700"
           target="_blank"
         >
-          <div className="flex flex-col items-center">
-            <img className="w-full rounded-lg rounded-b-none" src={project.projectBgImg} alt={project.projectName} />
+          <div className="flex h-full flex-col items-center">
+            <img
+              className="h-full w-full rounded-lg rounded-b-none"
+              src={project.projectBgImg}
+              alt={project.projectName}
+            />
             <div className="w-full space-y-2 border-[1px] border-t-0 border-white py-8 px-4">
               <p className="font-cursive text-2xl tracking-wider text-blue-700 underline underline-offset-4 focus:text-blue-900 active:text-blue-900 md:text-3xl">
                 {project.projectName}
               </p>
               <p className="px-8 font-hero-text">{project.projectText}</p>
             </div>
-            <ul className="mb-2 flex items-end justify-center gap-4 font-hero-text">
-              {project.projectTech.map((tech) => {
-                return (
-                  <li key={tech} className="tracking-wide text-blue-800">
-                    {tech}
-                  </li>
-                );
-              })}
-            </ul>
           </div>
         </a>
+        <div className="m-6">{''}</div>
+        <ul className="absolute bottom-4 justify-self-end font-hero-text">
+          {project.projectTech.map((tech) => {
+            return (
+              <li key={tech} className="tracking-wide text-blue-800">
+                {tech}
+              </li>
+            );
+          })}
+        </ul>
       </div>
     );
   });
@@ -48,7 +53,7 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
       <h2 className="mb-20 text-center font-hero-text text-4xl tracking-wider text-black lg:mb-32 lg:text-6xl">
         PROJECTS
       </h2>
-      <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-6 lg:pl-10 xl:grid-cols-3">{projectList}</div>
+      <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-10 lg:pl-10 xl:grid-cols-3">{projectList}</div>
     </section>
   );
 };
