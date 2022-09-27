@@ -18,7 +18,7 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
       >
         <a
           href={project.projectLink}
-          className="hover:text-blue-700 hover:outline-blue-700 focus:outline-blue-700 active:text-blue-900 active:outline-blue-700"
+          className="hover:bg-slate-100 hover:text-blue-700 hover:outline-blue-700 focus:outline-blue-700 active:text-blue-900 active:outline-blue-700"
           target="_blank"
         >
           <div className="flex max-h-fit flex-col items-center justify-center">
