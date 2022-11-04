@@ -12,7 +12,7 @@ const PROJECTS = [
     projectBgImg: '/assets/imgs/project-imgs/mtg-life-counter.png',
     projectName: 'MTG Life Counter',
     projectText: 'A web application to keep score of life total during Magic: The Gathering gameplay',
-    projectTech: ['React-Ts', 'Tailwind CSS', 'redux-toolkit', 'React-Router'],
+    projectTech: ['React-Ts', 'Tailwind CSS', 'Redux-ToolKit', 'React-Router'],
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const PROJECTS = [
     projectBgImg: '/assets/imgs/project-imgs/the-gathering-bulletin.png',
     projectName: 'The Gathering Bulletin',
     projectText: 'A website that covers all news and resources for Magic: The Gathering players',
-    projectTech: ['React-Ts', 'Tailwind CSS'],
+    projectTech: ['React-Ts', 'Tailwind CSS', 'React-Routers'],
   },
   {
     id: 3,

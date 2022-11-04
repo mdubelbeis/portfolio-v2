@@ -38,25 +38,18 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
               alt={project.projectName}
             />
             <div className="w-full space-y-2 border-[1px] border-t-0 border-white py-8 px-4">
-              <p className="p-4 text-2xl tracking-wider text-blue-700 focus:text-blue-900 active:text-blue-900 md:text-3xl">
+              <p className="mb-4 text-2xl tracking-wider text-blue-700 focus:text-blue-900 active:text-blue-900 md:text-3xl">
                 {project.projectName.toUpperCase()}
               </p>
-              <p className="px-8 font-hero-text">{project.projectText}</p>
+              <p className="px-8">{project.projectText}</p>
             </div>
           </div>
         </a>
-
-        <div className="m-10 hover:text-blue-500" onClick={handleShowTechStack}>
-          <TbTools size={25} />
-        </div>
 
         <div
           className={`${showTechStack ? 'absolute' : 'hidden'} top-0 left-0 flex h-full w-full bg-blue-800 text-white
           opacity-95`}
         >
-          <div onClick={handleShowTechStack} className="absolute bottom-10 left-[50%] -translate-x-[50%]">
-            <CgClose size={25} />
-          </div>
           <ul className={`flex w-full flex-col items-center justify-center gap-4`}>
             {project.projectTech.map((tech) => {
               return (
@@ -75,6 +68,14 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
       <h2 className="mb-20 text-center font-hero-text text-4xl tracking-wider text-black lg:mb-32 lg:text-6xl">
         PROJECTS
       </h2>
+      <div className="place-self-end">
+        <div className={`${showTechStack ? 'hidden' : ''} m-10 hover:text-blue-500`} onClick={handleShowTechStack}>
+          <TbTools size={30} />
+        </div>
+        <div onClick={handleShowTechStack} className={`${showTechStack ? 'block' : 'hidden'} m-10 hover:text-blue-500`}>
+          <CgClose size={30} />
+        </div>
+      </div>
       <div className="md:pl-10 lg:grid lg:grid-cols-2 lg:items-start lg:gap-10 xl:grid-cols-3">{projectList}</div>
     </section>
   );
