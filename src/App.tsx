@@ -8,6 +8,14 @@ import Contact from './components/Contact';
 const PROJECTS = [
   {
     id: 1,
+    projectLink: 'https://mtg-life-counter-three.vercel.app/',
+    projectBgImg: '/assets/imgs/project-imgs/mtg-life-counter.png',
+    projectName: 'MTG Life Counter',
+    projectText: 'A web application to keep score of life total during Magic: The Gathering gameplay',
+    projectTech: ['React-Ts', 'Tailwind CSS', 'redux-toolkit', 'React-Router'],
+  },
+  {
+    id: 2,
     projectLink: 'https://the-gathering-bulletin.vercel.app/',
     projectBgImg: '/assets/imgs/project-imgs/the-gathering-bulletin.png',
     projectName: 'The Gathering Bulletin',
@@ -15,7 +23,7 @@ const PROJECTS = [
     projectTech: ['React-Ts', 'Tailwind CSS'],
   },
   {
-    id: 2,
+    id: 3,
     projectLink: 'https://sunnyside-agency-landing-page-kappa.vercel.app/',
     projectBgImg: '/assets/imgs/project-imgs/sunny-side-agency.png',
     projectName: 'Sunny Side Agency',
@@ -23,7 +31,7 @@ const PROJECTS = [
     projectTech: ['React', 'Tailwind CSS'],
   },
   {
-    id: 3,
+    id: 4,
     projectLink: 'https://intro-section-db-menu.vercel.app/',
     projectBgImg: '/assets/imgs/project-imgs/snap.png',
     projectName: 'Snap',
@@ -31,7 +39,7 @@ const PROJECTS = [
     projectTech: ['React', 'Tailwind CSS'],
   },
   {
-    id: 4,
+    id: 5,
     projectLink: 'https://tip-calculator-rose-eight.vercel.app/',
     projectBgImg: '/assets/imgs/project-imgs/splitter.png',
     projectName: 'Splitter',
@@ -39,20 +47,12 @@ const PROJECTS = [
     projectTech: ['React', 'Tailwind CSS'],
   },
   {
-    id: 5,
+    id: 6,
     projectLink: 'https://suite-landing-page-one.vercel.app/',
     projectBgImg: '/assets/imgs/project-imgs/suite.png',
     projectName: 'Suite',
     projectText: 'A front end web challenge from Frontendmentor.io',
     projectTech: ['React', 'Tailwind CSS'],
-  },
-  {
-    id: 6,
-    projectLink: 'https://pod-request-access-landing-page-blue.vercel.app/',
-    projectBgImg: '/assets/imgs/project-imgs/pod.png',
-    projectName: 'Pod',
-    projectText: 'A front end web challenge from Frontendmentor.io',
-    projectTech: ['HTML', 'Tailwind CSS'],
   },
   // {
   //   id: 7,
