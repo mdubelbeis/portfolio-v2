@@ -8,6 +8,8 @@ module.exports = {
       },
       backgroundImage: {
         'hero-pattern': "url('/assets/imgs/christian-wiediger-WkfDrhxDMC8-unsplash.jpg')",
+        'blue-smoke': "url('/assets/imgs/pawel-czerwinski-YWIOwHvRBvU-unsplash.jpg')",
+        'blue-abstraction': "url('/assets/imgs/max-kleinen-ohQinqTl_DE-unsplash.jpg')",
       },
       fontFamily: {
         'hero-text': ['Antonio', 'sans-serif'],
