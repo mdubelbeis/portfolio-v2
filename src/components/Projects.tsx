@@ -69,7 +69,10 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
         PROJECTS
       </h2>
       <div className="place-self-end">
-        <div className={`${showTechStack ? 'hidden' : ''} m-10 hover:text-blue-500`} onClick={handleShowTechStack}>
+        <div
+          className={`${showTechStack ? 'hidden' : ' animate-pulse text-blue-500'} m-10 hover:text-blue-500`}
+          onClick={handleShowTechStack}
+        >
           <TbTools size={30} />
         </div>
         <div onClick={handleShowTechStack} className={`${showTechStack ? 'block' : 'hidden'} m-10 hover:text-blue-500`}>
