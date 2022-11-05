@@ -11,10 +11,7 @@ const About: React.FC = () => {
           out of Austin, TX, with a focus on <span className={spanText}>JAVASCRIPT/TYPESCRIPT, REACT, CSS, SASS</span>,
           and <span className={spanText}>TAILWIND CSS</span>. I strive to solve any problem that presents itself and
           committed to <span className={spanText}>UI/UX DEVELOPMENT</span> and{' '}
-          <span className={spanText}>PROBLEM SOLVING</span>. Navy Veteran with over 8 years of outstanding performance
-          and results for the United States Navy. Rapidly promoted and excelled as a{' '}
-          <span className={spanText}>LEADER</span>, leading over 500 Sailors in daily operations and in support of the
-          Navy's mission.
+          <span className={spanText}>PROBLEM SOLVING</span>.
         </p>
         <p>
           I will provide your company with an <span className={spanText}> OUTSTANDING TEAM MEMBER</span> who will hit
