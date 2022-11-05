@@ -66,12 +66,12 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
 
           <div className="flex gap-10 tracking-wider">
             <button className="rounded-lg bg-blue-500 py-2 px-4 tracking-wider hover:text-blue-800">
-              <a href={project.projectLink} className="text-sm">
+              <a href={project.projectLink} className="text-sm" target="_blank">
                 VISIT
               </a>
             </button>
             <button className="rounded-lg bg-blue-500 py-2 px-4 tracking-wider hover:text-blue-800">
-              <a href={project.githubLink} className="text-sm">
+              <a href={project.githubLink} className="text-sm" target="_blank">
                 CODE
               </a>
             </button>
