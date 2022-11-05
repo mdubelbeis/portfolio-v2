@@ -4,7 +4,7 @@ interface ButtonProps {
   px?: string;
   py?: string;
   textSize?: string | 'text-md';
-  marginTop: string;
+  marginTop?: string;
 }
 
 const Button: React.FC<ButtonProps> = ({ hidden, children, px, py, textSize, marginTop }) => {

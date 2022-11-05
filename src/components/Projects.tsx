@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { TbTools } from 'react-icons/tb';
 import { CgClose } from 'react-icons/cg';
+import Button from '../ui/Button';
 
 interface ProjectProps {
   projects: {
@@ -10,6 +11,7 @@ interface ProjectProps {
     projectName: string;
     projectText: string;
     projectTech: string[];
+    githubLink: string;
   }[];
 }
 
@@ -47,18 +49,33 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
         </a>
 
         <div
-          className={`${showTechStack ? 'absolute' : 'hidden'} top-0 left-0 flex h-full w-full bg-blue-800 text-white
-          opacity-95`}
+          className={`${
+            showTechStack ? 'absolute' : 'hidden'
+          } top-0 left-0 flex h-full w-full flex-col items-center justify-center gap-10 bg-blue-200 bg-opacity-90 text-white
+          `}
         >
-          <ul className={`flex w-full flex-col items-center justify-center gap-4`}>
+          <ul className={`flex w-full flex-col items-center justify-center gap-4 `}>
             {project.projectTech.map((tech) => {
               return (
-                <li key={tech} className={`tracking-wide text-white`}>
+                <li key={tech} className={`tracking-wider text-blue-700`}>
                   {tech.toUpperCase()}
                 </li>
               );
             })}
           </ul>
+
+          <div className="flex gap-10 tracking-wider">
+            <button className="rounded-lg bg-blue-500 py-2 px-4 tracking-wider hover:text-blue-800">
+              <a href={project.projectLink} className="text-sm">
+                VISIT
+              </a>
+            </button>
+            <button className="rounded-lg bg-blue-500 py-2 px-4 tracking-wider hover:text-blue-800">
+              <a href={project.githubLink} className="text-sm">
+                CODE
+              </a>
+            </button>
+          </div>
         </div>
       </div>
     );

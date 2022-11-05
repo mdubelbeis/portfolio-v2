@@ -13,6 +13,7 @@ const PROJECTS = [
     projectName: 'MTG Life Counter',
     projectText: 'A web application to keep score of life total during Magic: The Gathering gameplay',
     projectTech: ['React-Ts', 'Tailwind CSS', 'Redux-ToolKit', 'React-Router'],
+    githubLink: 'https://github.com/mdubelbeis/mtg-life-counter',
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ const PROJECTS = [
     projectName: 'The Gathering Bulletin',
     projectText: 'A website that covers all news and resources for Magic: The Gathering players',
     projectTech: ['React-Ts', 'Tailwind CSS', 'React-Routers'],
+    githubLink: 'https://github.com/mdubelbeis/the-gathering-bulletin',
   },
   {
     id: 3,
@@ -29,6 +31,7 @@ const PROJECTS = [
     projectName: 'Sunny Side Agency',
     projectText: 'A front end web challenge from Frontendmentor.io',
     projectTech: ['React', 'Tailwind CSS'],
+    githubLink: 'https://github.com/mdubelbeis/sunnyside-agency-landing-page',
   },
   {
     id: 4,
@@ -37,6 +40,7 @@ const PROJECTS = [
     projectName: 'Snap',
     projectText: 'A front end web challenge from Frontendmentor.io',
     projectTech: ['React', 'Tailwind CSS'],
+    githubLink: 'https://github.com/mdubelbeis/intro-section-db-menu',
   },
   {
     id: 5,
@@ -45,6 +49,7 @@ const PROJECTS = [
     projectName: 'Splitter',
     projectText: 'A front end web challenge from Frontendmentor.io',
     projectTech: ['React', 'Tailwind CSS'],
+    githubLink: 'https://github.com/mdubelbeis/tip-calculator',
   },
   {
     id: 6,
@@ -53,6 +58,7 @@ const PROJECTS = [
     projectName: 'Suite',
     projectText: 'A front end web challenge from Frontendmentor.io',
     projectTech: ['React', 'Tailwind CSS'],
+    githubLink: 'https://github.com/mdubelbeis/suite-landing-page',
   },
   // {
   //   id: 7,
@@ -61,6 +67,7 @@ const PROJECTS = [
   //   projectName: 'Du-Bee Herbs',
   //   projectText: 'A landing page for local spices and herbs store.',
   //   projectTech: ['React-Ts', 'Tailwind CSS'],
+  //   githubLink: ''
   // },
 ];
 
