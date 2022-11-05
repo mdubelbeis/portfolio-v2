@@ -18,7 +18,7 @@ const Skills: React.FC = () => {
       <div className="p-4">
         <h2 className="mb-2 font-hero-text text-4xl tracking-widest text-white lg:text-6xl">SKILLS</h2>
       </div>
-      <div className="mt-16 grid grid-cols-3 gap-20 p-8 md:grid-cols-3">
+      <div className="mt-16 grid grid-cols-3 gap-20 p-8 xl:grid-cols-4">
         {ICONS.map((icon) => {
           return <img key={Math.random()} className="w-20" src={icon.icon} alt={icon.altText} />;
         })}
