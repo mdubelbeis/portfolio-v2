@@ -51,7 +51,7 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
         <div
           className={`${
             showTechStack ? 'absolute' : 'hidden'
-          } top-0 left-0 flex h-full w-full flex-col items-center justify-center gap-10 bg-blue-200 bg-opacity-90 text-white
+          } top-0 left-0 flex h-full w-full flex-col items-center justify-center gap-10 rounded-t-lg bg-blue-200 bg-opacity-90 text-white
           `}
         >
           <ul className={`flex w-full flex-col items-center justify-center gap-4 `}>
@@ -81,8 +81,8 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
     );
   });
   return (
-    <section className="flex h-full w-full flex-col items-center justify-center gap-2 bg-white px-4 py-20 text-center md:px-32 lg:py-40">
-      <h2 className="mb-20 text-center font-hero-text text-4xl tracking-wider text-black lg:mb-32 lg:text-6xl">
+    <section className="flex h-full w-full flex-col items-center justify-center gap-2 bg-white px-4 py-32 text-center md:px-32">
+      <h2 className="mb-20 text-center font-hero-text text-4xl tracking-wider text-black md:text-5xl lg:mb-32 lg:text-7xl">
         PROJECTS
       </h2>
       <div className="place-self-center">
@@ -96,7 +96,7 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
           <CgClose size={30} />
         </div>
       </div>
-      <div className="md:pl-10 lg:grid lg:grid-cols-2 lg:items-start lg:gap-10 xl:grid-cols-3">{projectList}</div>
+      <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-10 xl:grid-cols-3">{projectList}</div>
     </section>
   );
 };
