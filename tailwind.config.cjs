@@ -13,9 +13,8 @@ module.exports = {
         'blue-reaction': "url('/assets/imgs/engin-akyurt-8eLBp2xo68c-unsplash.jpg')",
       },
       fontFamily: {
-        'hero-text': ['Antonio', 'sans-serif'],
-        'hero-title': ['Satisfy', 'cursive'],
-        cursive: ['Galada', 'cursive'],
+        lato: ['Lato', 'sans-serif'],
+        'josefin-sans': ['Josefin Sans', 'sans-serif'],
       },
     },
   },
