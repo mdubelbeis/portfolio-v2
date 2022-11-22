@@ -15,7 +15,7 @@ const ICONS = [
 
 const Skills: React.FC = () => {
   return (
-    <section className="relative flex w-full flex-col items-center justify-start bg-slate-800 bg-blue-reaction bg-cover bg-center bg-no-repeat px-4 py-32 text-white bg-blend-overlay lg:flex-row lg:items-center lg:justify-center lg:gap-20 xl:gap-40">
+    <section className="relative flex w-full flex-col items-center justify-start bg-slate-800 bg-blue-reaction bg-cover bg-center bg-no-repeat px-4 py-32 text-white bg-blend-normal lg:flex-row lg:items-center lg:justify-center lg:gap-20 xl:gap-40">
       <div className="p-4">
         <h2 className="font-hero-text mb-2 text-5xl tracking-widest text-white lg:text-7xl">SKILLS</h2>
       </div>
@@ -25,6 +25,7 @@ const Skills: React.FC = () => {
           return <img key={Math.random()} className="w-20" src={icon.icon} alt={icon.altText} />;
         })}
       </div>
+      <div className="absolute top-0 left-0 z-30 h-full w-full bg-coding-bg bg-cover bg-center bg-no-repeat object-cover"></div>
     </section>
   );
 };
