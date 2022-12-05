@@ -13,9 +13,7 @@ const ICONS = [
 
 const Contact: React.FC = () => {
   return (
-    <nav
-      className={`absolute z-10 mx-auto flex w-fit justify-around py-2 md:left-0 md:top-0 md:block md:h-full md:pt-2`}
-    >
+    <nav className={`absolute z-10 flex py-2 md:left-0 md:top-0 md:block md:h-full md:pt-2`}>
       <div id="content-container" className="py-1 px-2 md:fixed">
         <ul
           id="contact-links-wrapper"
