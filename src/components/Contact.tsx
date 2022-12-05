@@ -13,9 +13,14 @@ const ICONS = [
 
 const Contact: React.FC = () => {
   return (
-    <nav className={`z-10 mx-auto flex justify-around py-2 md:absolute md:left-0 md:top-0 md:block md:h-full md:pt-2`}>
-      <div id="content-container" className="h-full py-1 px-2 md:fixed">
-        <ul id="contact-links-wrapper" className={`flex gap-4 md:flex-col lg:gap-10`}>
+    <nav
+      className={`absolute z-10 mx-auto flex w-full justify-around py-2 md:left-0 md:top-0 md:block md:h-full md:pt-2`}
+    >
+      <div id="content-container" className="py-1 px-2 md:fixed">
+        <ul
+          id="contact-links-wrapper"
+          className={`mx-auto flex w-full items-center justify-center gap-4 md:flex-col md:gap-7`}
+        >
           {ICONS.map((icon) => {
             return (
               <li
