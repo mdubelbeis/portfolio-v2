@@ -7,8 +7,8 @@ const About: React.FC = () => {
         <h2 className="font-hero-text text-center text-5xl text-black lg:text-7xl">ABOUT</h2>
         <div className="hidden lg:block lg:h-[250px] lg:border-l-2 lg:border-black lg:opacity-30"></div>
         <div className="flex max-w-2xl flex-col items-center justify-center gap-2 p-4 text-left text-lg">
-          <div className="flex flex-col gap-2 md:ml-10">
-            <h3 className="text-2xl font-bold">Hello, I'm Mason.</h3>
+          <div className="flex flex-col gap-6 md:ml-10">
+            <h3 className="text-2xl font-bold md:text-3xl">Hello, I'm Mason Dubelbeis!</h3>
             <p>I am a United States Navy Veteran, Web, and Javascript Developer.</p>
             <p>I build websites, apps, and features for consumers to interact with your business.</p>
             <em className="mt-8 text-center text-lg font-semibold">Let me help your business grow.</em>
