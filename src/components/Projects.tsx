@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { TbTools } from 'react-icons/tb';
 import { CgClose } from 'react-icons/cg';
-import Button from '../ui/Button';
 
 interface ProjectProps {
   projects: {
