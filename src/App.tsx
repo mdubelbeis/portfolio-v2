@@ -21,7 +21,7 @@ const PROJECTS = [
     projectBgImg: '/assets/imgs/project-imgs/the-gathering-bulletin.png',
     projectName: 'The Gathering Bulletin',
     projectText: 'A website that covers all news and resources for Magic: The Gathering players',
-    projectTech: ['React-Ts', 'Tailwind CSS', 'React-Routers'],
+    projectTech: ['React-Ts', 'Tailwind CSS', 'React-Router'],
     githubLink: 'https://github.com/mdubelbeis/the-gathering-bulletin',
   },
   {
@@ -29,7 +29,7 @@ const PROJECTS = [
     projectLink: 'https://sunnyside-agency-landing-page-kappa.vercel.app/',
     projectBgImg: '/assets/imgs/project-imgs/sunny-side-agency.png',
     projectName: 'Sunny Side Agency',
-    projectText: 'A front end web challenge from Frontendmentor.io',
+    projectText: 'A Frontendmentor.io web challenge',
     projectTech: ['React', 'Tailwind CSS'],
     githubLink: 'https://github.com/mdubelbeis/sunnyside-agency-landing-page',
   },
@@ -38,7 +38,7 @@ const PROJECTS = [
     projectLink: 'https://intro-section-db-menu.vercel.app/',
     projectBgImg: '/assets/imgs/project-imgs/snap.png',
     projectName: 'Snap',
-    projectText: 'A front end web challenge from Frontendmentor.io',
+    projectText: 'A Frontendmentor.io web challenge',
     projectTech: ['React', 'Tailwind CSS'],
     githubLink: 'https://github.com/mdubelbeis/intro-section-db-menu',
   },
@@ -47,7 +47,7 @@ const PROJECTS = [
     projectLink: 'https://tip-calculator-rose-eight.vercel.app/',
     projectBgImg: '/assets/imgs/project-imgs/splitter.png',
     projectName: 'Splitter',
-    projectText: 'A front end web challenge from Frontendmentor.io',
+    projectText: 'A Frontendmentor.io web challenge',
     projectTech: ['React', 'Tailwind CSS'],
     githubLink: 'https://github.com/mdubelbeis/tip-calculator',
   },
@@ -56,7 +56,7 @@ const PROJECTS = [
     projectLink: 'https://suite-landing-page-one.vercel.app/',
     projectBgImg: '/assets/imgs/project-imgs/suite.png',
     projectName: 'Suite',
-    projectText: 'A front end web challenge from Frontendmentor.io',
+    projectText: 'A Frontendmentor.io web challenge',
     projectTech: ['React', 'Tailwind CSS'],
     githubLink: 'https://github.com/mdubelbeis/suite-landing-page',
   },
@@ -73,7 +73,7 @@ const PROJECTS = [
 
 const App: React.FC = () => {
   return (
-    <div className="font-lato relative mx-auto w-screen max-w-[100rem]">
+    <div className="relative mx-auto w-screen max-w-[100rem] font-lato">
       <Contact />
       <Hero />
       <main>
