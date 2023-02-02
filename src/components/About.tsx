@@ -9,8 +9,8 @@ const About: React.FC = () => {
             <h3 className="text-2xl font-bold md:text-3xl lg:text-6xl">Hello, I'm Mason!</h3>
             <p>A Full Stack Software Engineer.</p>
             <p>
-              I have a passion for creating beautiful, interactive, websites and/or applications that are easy to use,
-              vibe with end-users, and ensures a readable, type-safe codebase for future maintainers.
+              I have a passion for creating beautiful, interactive, websites and applications that are easy to use, vibe
+              with end-users, and ensures a readable, type-safe codebase for future maintainers.
             </p>
           </div>
         </div>
