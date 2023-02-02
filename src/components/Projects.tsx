@@ -81,9 +81,9 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
   });
   return (
     <section className="flex h-full w-full flex-col items-center justify-center gap-2 bg-white px-4 py-32 text-center md:px-32">
-      <h2 className="font-hero-text mb-20 text-center text-5xl tracking-wider text-black md:text-5xl lg:mb-32 lg:text-7xl">
+      {/* <h2 className="font-hero-text mb-20 text-center text-5xl tracking-wider text-black md:text-5xl lg:mb-32 lg:text-7xl">
         PROJECTS
-      </h2>
+      </h2> */}
       <div className="place-self-center">
         <div
           className={`${showTechStack ? 'hidden' : ' animate-pulse text-blue-500'} m-10 hover:text-blue-500`}
