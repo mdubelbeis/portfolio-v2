@@ -95,7 +95,7 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
           <CgClose size={30} />
         </div>
       </div>
-      <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-10 xl:grid-cols-3">{projectList}</div>
+      <div className="font-mono lg:grid lg:grid-cols-2 lg:items-start lg:gap-10 xl:grid-cols-3">{projectList}</div>
     </section>
   );
 };

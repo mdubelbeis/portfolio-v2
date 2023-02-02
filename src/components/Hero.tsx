@@ -2,9 +2,9 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <div className="font-hero-text flex h-screen flex-col items-center justify-center bg-slate-800 bg-code bg-cover bg-center bg-no-repeat px-10 py-28 text-center text-white bg-blend-multiply md:h-auto">
-      <div className="flex w-full flex-col gap-6">
-        <h1 className="font-josefin-sans text-6xl font-bold tracking-wider text-blue-500 lg:text-8xl">
+    <div className="font-hero-text flex h-screen flex-col items-center justify-center bg-slate-800 bg-code bg-cover bg-center bg-no-repeat px-2 py-28 text-center text-white bg-blend-multiply md:h-auto">
+      <div className="flex w-full flex-col gap-6 font-mono">
+        <h1 className="font-mono text-6xl uppercase tracking-wider text-blue-500 lg:text-8xl">
           Mason <span className="md:block">Dubelbeis</span>
         </h1>
         <ul>
