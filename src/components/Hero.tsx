@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
         </h1>
         <ul>
           <li className="font-hero-text mx-auto w-9/12 border-b-[0.05rem] border-t-[0.05rem] border-blue-500 py-2 text-2xl tracking-wider md:w-6/12 lg:text-5xl">
-            WEB DEVELOPER
+            Full Stack Software Engineer
           </li>
         </ul>
         <div className="flex flex-col gap-2 text-lg tracking-wider md:text-2xl">
