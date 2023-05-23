@@ -6,11 +6,12 @@ interface ProjectProps {
   projects: {
     id: number;
     projectLink: string;
-    projectBgImg: string;
+    projectBgImg: string | null;
     projectName: string;
     projectText: string;
     projectTech: string[];
     githubLink: string;
+    demoLink?: string;
   }[];
 }
 
@@ -33,11 +34,25 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
           target="_blank"
         >
           <div className="flex h-full flex-col items-center">
-            <img
-              className="h-full w-full rounded-lg rounded-b-none"
-              src={project.projectBgImg}
-              alt={project.projectName}
-            />
+            {project.demoLink ? (
+              // embed demo video
+              <div className="video-responsive h-[240px] w-full">
+                <iframe
+                  className="h-full w-full rounded-lg rounded-b-none"
+                  src={project.demoLink}
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            ) : (
+              <img
+                className="h-full w-full rounded-lg rounded-b-none"
+                src={project.projectBgImg?.toString()}
+                alt={project.projectName}
+              />
+            )}
             <div className="w-full space-y-2 border-[1px] border-t-0 border-white py-8 px-4">
               <p className="mb-4 text-2xl tracking-wider text-blue-700 focus:text-blue-900 active:text-blue-900 md:text-3xl">
                 {project.projectName.toUpperCase()}
