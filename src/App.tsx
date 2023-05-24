@@ -75,6 +75,16 @@ const PROJECTS = [
   },
   {
     id: 6,
+    projectLink: 'https://github.com/mdubelbeis/poke-dex',
+    projectBgImg: null,
+    projectName: 'PokeDex',
+    projectText: 'A web application that allows users to search for, capture, and view information about Pokemon.',
+    projectTech: ['React', 'Typescript', 'Tailwind CSS', 'DaisyUI', 'React-Router', 'Vitest'],
+    githubLink: 'https://github.com/mdubelbeis/poke-dex',
+    demoLink: 'https://www.youtube.com/embed/bcODFshzq1E',
+  },
+  {
+    id: 7,
     projectLink: 'https://sunnyside-agency-landing-page-kappa.vercel.app/',
     projectBgImg: '/assets/imgs/project-imgs/sunny-side-agency.png',
     projectName: 'Sunny Side Agency',
@@ -83,7 +93,7 @@ const PROJECTS = [
     githubLink: 'https://github.com/mdubelbeis/sunnyside-agency-landing-page',
   },
   {
-    id: 7,
+    id: 8,
     projectLink: 'https://intro-section-db-menu.vercel.app/',
     projectBgImg: '/assets/imgs/project-imgs/snap.png',
     projectName: 'Snap',
@@ -92,7 +102,7 @@ const PROJECTS = [
     githubLink: 'https://github.com/mdubelbeis/intro-section-db-menu',
   },
   {
-    id: 8,
+    id: 9,
     projectLink: 'https://tip-calculator-rose-eight.vercel.app/',
     projectBgImg: '/assets/imgs/project-imgs/splitter.png',
     projectName: 'Splitter',
@@ -101,7 +111,7 @@ const PROJECTS = [
     githubLink: 'https://github.com/mdubelbeis/tip-calculator',
   },
   {
-    id: 9,
+    id: 10,
     projectLink: 'https://suite-landing-page-one.vercel.app/',
     projectBgImg: '/assets/imgs/project-imgs/suite.png',
     projectName: 'Suite',
