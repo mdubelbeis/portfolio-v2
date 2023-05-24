@@ -1,16 +1,20 @@
 import React from 'react';
 
 const ICONS = [
+  { icon: '/assets/icons/next-js.svg', altText: 'next.js icon' },
   { icon: '/assets/icons/react-icons/react-512.png', altText: 'react icon' },
   { icon: '/assets/icons/js-icons/js-512.png', altText: 'javascript icon' },
   { icon: '/assets/icons/typescript-icons/typescript-512.png', altText: 'typescript icon' },
   { icon: '/assets/icons/tailwind-icons/tailwind.png', altText: 'tailwindcss icon' },
   { icon: '/assets/icons/redux-icons/redux.png', altText: 'redux icon' },
   { icon: '/assets/icons/git (1).png', altText: 'git icon' },
-  { icon: '/assets/icons/html.svg', altText: 'html icon' },
+  // { icon: '/assets/icons/html.svg', altText: 'html icon' },
   { icon: '/assets/icons/css3.svg', altText: 'css icon' },
-  { icon: '/assets/icons/sass-icons/sass-512.png', altText: 'sass icon' },
-  { icon: '/assets/icons/bootstrap.png', altText: 'bootstrap icon' },
+  // { icon: '/assets/icons/sass-icons/sass-512.png', altText: 'sass icon' },
+  // { icon: '/assets/icons/bootstrap.png', altText: 'bootstrap icon' },
+  { icon: '/assets/icons/python.svg', altText: 'python icon' },
+  { icon: '/assets/icons/django.svg', altText: 'django icon' },
+  { icon: '/assets/icons/postgresql.svg', altText: 'postgresql icon' },
 ];
 
 const Skills: React.FC = () => {
