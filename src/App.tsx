@@ -134,7 +134,7 @@ const App: React.FC = () => {
     return (
         <div className="relative mx-auto w-screen max-w-[100rem] font-lato">
             <Contact />
-            <Hero />
+            {/* <Hero /> */}
             <main>
                 <About />
                 <Skills />
