@@ -1,7 +1,7 @@
 const Footer: React.FC = () => {
   return (
     <footer className="flex items-center justify-center gap-4 py-4 text-white">
-      <small>&copy; 2023</small>
+      <small>&copy; 2024</small>
       <small className="hover:cursor-pointer hover:text-blue-500">
         <a href="/">Mason J. Dubelbeis</a>
       </small>

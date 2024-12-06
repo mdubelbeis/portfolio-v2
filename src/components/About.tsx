@@ -10,9 +10,9 @@ const About: React.FC = () => {
                             <p>Hello,</p>
                             <p>I'm Mason Dubelbeis!</p>
                         </div>
-                        <sub>Full-Stack Software Engineer </sub>
+                        <sub>Software Engineer</sub>
                         <p className="mx-auto max-w-xl">
-                            I have a passion for creating beautiful, interactive, websites and applications that are
+                            I have a passion for creating beautiful and interactive applications that are
                             easy to use, vibe with end-users, and ensures a readable, type-safe codebase for future
                             maintainers.
                         </p>
@@ -21,7 +21,7 @@ const About: React.FC = () => {
             </div>
             <div className="mx-auto">
                 <Button py="py-4" px="px-6" textSize="text-xl" marginTop="mt-4">
-                    RESUME
+                    DOWNLOAD RESUME
                 </Button>
             </div>
         </section>
