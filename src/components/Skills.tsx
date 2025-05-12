@@ -1,16 +1,6 @@
-import React from 'react';
+import { ICONS } from '../data/icons';
 
-const ICONS = [
-    { icon: '/assets/icons/react-icons/react-512.png', altText: 'react icon' },
-    { icon: '/assets/icons/typescript-icons/typescript-512.png', altText: 'typescript icon' },
-    { icon: '/assets/icons/tailwind-icons/tailwind.png', altText: 'tailwindcss icon' },
-    { icon: '/assets/icons/git (1).png', altText: 'git icon' },
-    { icon: '/assets/icons/python.svg', altText: 'python icon' },
-    { icon: '/assets/icons/django.svg', altText: 'django icon' },
-    { icon: '/assets/icons/postgresql.svg', altText: 'postgresql icon' },
-];
-
-const Skills: React.FC = () => {
+const Skills = () => {
     return (
         <section className="xl:gap-26 relative flex w-full flex-col items-center justify-start bg-slate-800 px-4 py-32 text-white bg-blend-soft-light lg:flex-row lg:items-center lg:justify-center lg:gap-20 lg:px-28">
             <div className="p-4">

@@ -1,6 +1,6 @@
 import Button from '../ui/Button';
 
-const About: React.FC = () => {
+const About = () => {
     return (
         <section className="font-hero-text flex h-screen flex-col items-center justify-center gap-6 bg-slate-100 py-32 tracking-wider text-black lg:gap-10 lg:tracking-wider">
             <div className="font-hero-text flex flex-col items-center justify-center lg:flex-row-reverse">
@@ -12,9 +12,8 @@ const About: React.FC = () => {
                         </div>
                         <sub>Software Engineer</sub>
                         <p className="mx-auto max-w-xl">
-                            I have a passion for creating beautiful and interactive applications that are
-                            easy to use, vibe with end-users, and ensures a readable, type-safe codebase for future
-                            maintainers.
+                            I have a passion for creating beautiful and interactive applications that are easy to use,
+                            vibe with end-users, and ensures a readable, type-safe codebase for future maintainers.
                         </p>
                     </div>
                 </div>

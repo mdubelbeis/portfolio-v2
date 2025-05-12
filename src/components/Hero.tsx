@@ -1,6 +1,4 @@
-import React from 'react';
-
-const Hero: React.FC = () => {
+const Hero = () => {
     return (
         <div className="font-hero-text flex h-full flex-col items-center justify-center bg-slate-800 px-2 py-28 text-center text-white bg-blend-multiply md:h-auto">
             <div className="flex w-full flex-col gap-6 font-mono">
