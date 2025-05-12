@@ -6,7 +6,6 @@ import { MdAlternateEmail } from 'react-icons/md';
 const SOCIAL_ICONS = [
     { icon: <FaGithub size={40} />, url: 'https://www.github.com/mdubelbeis' },
     { icon: <FaLinkedin size={40} />, url: 'https://www.linkedin.com/in/mason-dub/' },
-    { icon: <FaTwitter size={40} />, url: 'https://twitter.com/mason_dubelbeis' },
     { icon: <MdAlternateEmail size={40} />, url: 'mailto:mason.dubelbeis@gmail.com' },
 ];
 
