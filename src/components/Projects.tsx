@@ -15,7 +15,7 @@ interface ProjectProps {
     }[];
 }
 
-const Projects: React.FC<ProjectProps> = ({ projects }) => {
+const Projects = ({ projects }: ProjectProps) => {
     const [showTechStack, setShowTechStack] = useState(false);
 
     const handleShowTechStack = () => {
@@ -53,7 +53,7 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
                                 alt={project.projectName}
                             />
                         )}
-                        <div className="w-full space-y-2 border-[1px] border-t-0 border-white py-8 px-4">
+                        <div className="w-full space-y-2 border-[1px] border-t-0 border-white px-4 py-8">
                             <p className="mb-4 text-2xl tracking-wider text-blue-700 focus:text-blue-900 active:text-blue-900 md:text-3xl">
                                 {project.projectName.toUpperCase()}
                             </p>
@@ -65,7 +65,7 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
                 <div
                     className={`${
                         showTechStack ? 'absolute' : 'hidden'
-                    } top-0 left-0 flex h-full w-full flex-col items-center justify-center gap-10 rounded-t-lg bg-blue-200 bg-opacity-90 text-white
+                    } left-0 top-0 flex h-full w-full flex-col items-center justify-center gap-10 rounded-t-lg bg-blue-200 bg-opacity-90 text-white
           `}
                 >
                     <ul className={`flex w-full flex-col items-center justify-center gap-4 `}>
@@ -79,12 +79,12 @@ const Projects: React.FC<ProjectProps> = ({ projects }) => {
                     </ul>
 
                     <div className="flex gap-10 tracking-wider">
-                        <button className="rounded-lg bg-blue-500 py-2 px-4 tracking-wider hover:text-blue-800">
+                        <button className="rounded-lg bg-blue-500 px-4 py-2 tracking-wider hover:text-blue-800">
                             <a href={project.projectLink} className="text-sm" target="_blank">
                                 VISIT
                             </a>
                         </button>
-                        <button className="rounded-lg bg-blue-500 py-2 px-4 tracking-wider hover:text-blue-800">
+                        <button className="rounded-lg bg-blue-500 px-4 py-2 tracking-wider hover:text-blue-800">
                             <a href={project.githubLink} className="text-sm" target="_blank">
                                 CODE
                             </a>
