@@ -10,7 +10,7 @@ const About = () => {
                             <p>Hello,</p>
                             <p>Let's Connect</p>
                         </div>
-                        <sub>Software Engineer</sub>
+                        <sub>Software Engineer | Java • Spring Boot • APIs • Docker • SQL</sub>
                         <p className="mx-auto max-w-xl">
                             I’m Mason Dubelbeis — a backend-focused software engineer who builds clean, tested Spring Boot APIs and ships them with Docker and PostgreSQL.”
                         </p>
