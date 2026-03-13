@@ -8,12 +8,11 @@ const About = () => {
                     <div className="flex flex-col gap-6 px-1 text-center font-mono md:m-10 lg:m-0 lg:gap-10 lg:text-2xl">
                         <div className="text-2xl font-bold md:text-3xl lg:text-6xl">
                             <p>Hello,</p>
-                            <p>I'm Mason Dubelbeis!</p>
+                            <p>Let's Connect</p>
                         </div>
                         <sub>Software Engineer</sub>
                         <p className="mx-auto max-w-xl">
-                            I have a passion for creating beautiful and interactive applications that are easy to use,
-                            vibe with end-users, and ensures a readable, type-safe codebase for future maintainers.
+                            I’m Mason Dubelbeis — a backend-focused software engineer who builds clean, tested Spring Boot APIs and ships them with Docker and PostgreSQL.”
                         </p>
                     </div>
                 </div>
